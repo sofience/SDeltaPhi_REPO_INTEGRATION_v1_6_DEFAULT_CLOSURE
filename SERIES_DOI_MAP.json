@@ -1,0 +1,24 @@
+{
+  "SDeltaPhi-00": {
+    "title": "The Sofience-DeltaPhi Formalism: Conceptual Architecture and Series Overview",
+    "doi": "10.5281/zenodo.18731366"
+  },
+  "SDeltaPhi-01": {
+    "title": "Sofience-DeltaPhi Minimal Core: Phase-Change Formalism of Existence",
+    "canonical_paper_doi": "10.5281/zenodo.18730265",
+    "ai_readable_package_doi": "10.5281/zenodo.20250823"
+  },
+  "SDeltaPhi-02": {
+    "title": "Subject as Interpretive Emergence",
+    "doi": "10.5281/zenodo.18730296"
+  },
+  "SDeltaPhi-03": {
+    "title": "Irreversibility as the Minimal Condition of Existence",
+    "canonical_paper_doi": "10.5281/zenodo.18730448",
+    "ai_readable_package_doi": "10.5281/zenodo.20251725"
+  },
+  "SDeltaPhi-56": {
+    "title": "Transition Completion Cost",
+    "doi": "10.5281/zenodo.20088515"
+  }
+}

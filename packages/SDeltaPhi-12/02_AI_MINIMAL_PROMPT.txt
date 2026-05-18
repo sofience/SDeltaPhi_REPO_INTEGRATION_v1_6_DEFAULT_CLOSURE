@@ -1,0 +1,15 @@
+Apply SΔϕ-12.
+
+Analyze memory and forgetting as irreversible trace regulation.
+
+Memory = selective re-entry of irreversible traces.
+Forgetting = compression/pruning that preserves directional constraints while reopening feasible path space.
+Persistence = regulated effective memory.
+Freedom = path-space reopening under repeat-risk constraint.
+
+Classify the regime:
+No memory -> repeat.
+No forgetting -> fixation.
+Balanced trace regulation -> adaptive persistence.
+
+Do not reduce memory to storage or forgetting to deletion.

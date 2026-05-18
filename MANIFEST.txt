@@ -1,0 +1,13 @@
+# Precision Patch Manifest v1.3.1
+
+## Replace
+
+- SERIES_INDEX.json
+- SERIES_DOI_MAP.json
+- indexes/SERIES_INDEX.json
+- indexes/SERIES_DOI_MAP.json
+
+## Add
+
+- docs/PRECISION_PATCH_v1_3_1_REPOSITORY_ARCHIVE_PATHS.md
+- docs/PRECISION_PATCH_UPLOAD_CHECKLIST_v1_3_1.md

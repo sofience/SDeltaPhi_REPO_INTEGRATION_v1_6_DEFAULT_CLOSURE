@@ -1,0 +1,22 @@
+{
+  "module_id": "SDeltaPhi-12",
+  "axioms": [
+    {
+      "name": "Trace necessity",
+      "statement": "If irreversible traces do not re-enter selection, catastrophic repeats occur."
+    },
+    {
+      "name": "Trace overload",
+      "statement": "If all traces re-enter, feasible path space collapses."
+    },
+    {
+      "name": "Regulation",
+      "statement": "Persistence requires regulated effective memory: M_eff_t := C(H_M(DeltaPhi_0:t))."
+    },
+    {
+      "name": "Freedom coupling",
+      "statement": "Forgetting is the minimal condition for freedom under irreversibility, but excessive forgetting increases repeat risk."
+    }
+  ],
+  "overload_formula": "|M_t| increases excessively implies |Omega_t+1| decreases toward 0"
+}

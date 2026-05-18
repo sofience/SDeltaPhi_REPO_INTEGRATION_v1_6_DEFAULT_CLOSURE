@@ -1,0 +1,48 @@
+version: "v1.4.1-format-fix"
+date: "2026-05-17"
+purpose: "Access protocol for the SDeltaPhi AI-readable GitHub mirror after root-spine pipeline update."
+
+layers:
+  canonical_archive:
+    name: "Zenodo"
+    role:
+      - "DOI"
+      - "preservation"
+      - "citation"
+      - "version fixation"
+  ai_ingestion_mirror:
+    name: "GitHub"
+    role:
+      - "Markdown ingestion"
+      - "TXT ingestion"
+      - "YAML routing"
+      - "JSON indexing"
+      - "low-cost AI-readable access"
+
+citation_rule:
+  - "Use Zenodo DOI for citation."
+  - "Use GitHub files for ingestion and routing."
+  - "If Zenodo and GitHub differ, cite Zenodo and check package-level mirror metadata."
+  - "Do not cite this GitHub repository as the canonical archive when a Zenodo DOI exists."
+
+start_files:
+  - "00_AI_ENTRYPOINT.md"
+  - "llms.txt"
+  - "SDELTA_MODULE_ROUTING.yaml"
+  - "pipeline/00_BOOTSTRAP_PIPELINE.yaml"
+  - "pipeline/06_PIPELINE_INDEX_FOR_AI.md"
+  - "SERIES_INDEX.json"
+  - "SERIES_DOI_MAP.json"
+
+root_spine:
+  - "SDeltaPhi-01"
+  - "SDeltaPhi-03"
+  - "SDeltaPhi-47"
+  - "SDeltaPhi-62"
+
+core_output_discipline:
+  - "Trace before claim."
+  - "UMR before certainty."
+  - "Re-entry before closure."
+  - "Cost before declaration."
+  - "Path geometry before policy belief."

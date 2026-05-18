@@ -1,0 +1,19 @@
+{
+  "diagram_id": "SDeltaPhi-12_TRL",
+  "name": "Trace Regulation Loop",
+  "steps": [
+    "DeltaPhi event",
+    "Irreversibility test: RollbackCost >> UpdateBudget ?",
+    "Trace candidate",
+    "Memory re-entry / constraint injection",
+    "Forgetting / compression / pruning",
+    "Feasible path set Omega update",
+    "Next selection",
+    "repeat"
+  ],
+  "coupled_operations": {
+    "memory": "constraint injection",
+    "forgetting": "constraint compression",
+    "persistence": "regulated trace re-entry"
+  }
+}

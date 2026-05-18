@@ -1,0 +1,23 @@
+{
+  "repository_version": "v1.4.1-format-fix",
+  "repository_role": "AI-readable routing and ingestion mirror",
+  "canonical_layer": "Zenodo DOI",
+  "ingestion_layer": "GitHub Markdown/TXT/YAML/JSON",
+  "start_files": [
+    "llms.txt",
+    "00_AI_ENTRYPOINT.md",
+    "SDELTA_ACCESS_PROTOCOL.yaml",
+    "SDELTA_MODULE_ROUTING.yaml",
+    "pipeline/00_BOOTSTRAP_PIPELINE.yaml",
+    "pipeline/06_PIPELINE_INDEX_FOR_AI.md",
+    "SERIES_INDEX.json",
+    "SERIES_DOI_MAP.json"
+  ],
+  "minimal_root_route": [
+    "SDeltaPhi-01",
+    "SDeltaPhi-03",
+    "SDeltaPhi-47",
+    "SDeltaPhi-62"
+  ],
+  "package_index_note": "This file is a compact root index. Package-level metadata remains inside each package folder."
+}

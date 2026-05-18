@@ -1,0 +1,318 @@
+version: "1.3-core-ethics-path-victory-routing-update"
+date: "2026-05-15"
+purpose: "Routing table for SDeltaPhi AI-readable modules, including root spine, diagnostic routing, ethics/path modules, and boundary-to-closure continuation."
+
+core_route:
+  - "SDeltaPhi-47"
+  - "SDeltaPhi-62"
+  - "SDeltaPhi-39"
+  - "SDeltaPhi-65"
+  - "SDeltaPhi-64"
+  - "SDeltaPhi-56"
+
+early_operational_core_route:
+  - "SDeltaPhi-02"
+  - "SDeltaPhi-04"
+  - "SDeltaPhi-05"
+  - "SDeltaPhi-06"
+  - "SDeltaPhi-07"
+
+closure_residual_reentry_route:
+  - "SDeltaPhi-08"
+  - "SDeltaPhi-09"
+  - "SDeltaPhi-10"
+
+boundary_to_closure_route:
+  - "SDeltaPhi-11"
+  - "SDeltaPhi-12"
+  - "SDeltaPhi-13"
+  - "SDeltaPhi-14"
+  - "SDeltaPhi-15"
+  - "SDeltaPhi-16"
+
+ethics_path_victory_route:
+  - "SDeltaPhi-41"
+  - "SDeltaPhi-44"
+  - "SDeltaPhi-45"
+
+failure_stability_route:
+  - "SDeltaPhi-48"
+  - "SDeltaPhi-49"
+  - "SDeltaPhi-51"
+
+routing_rule:
+  - "Start with trace/inference/UMR discipline before strong claims."
+  - "Use newly added modules only when their route_when conditions are present."
+  - "Use SDeltaPhi-56 as a cost underlayer, not as the definition of each module."
+  - "Do not activate SDeltaPhi-11 through SDeltaPhi-16 by keyword alone."
+  - "Use the smallest sufficient module."
+  - "Use SDeltaPhi-62 when factual, evidential, or world-binding claims appear."
+
+routes:
+  - when:
+      - "world claim"
+      - "uncertainty"
+      - "source grounding"
+    use:
+      - "SDeltaPhi-62"
+
+  - when:
+      - "hallucination"
+      - "invented citation"
+      - "overconfident factual claim"
+      - "weak inference overclaimed as fact"
+    use:
+      - "SDeltaPhi-39"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "existence"
+      - "operation"
+      - "irreversible trace"
+      - "operor"
+    use:
+      - "SDeltaPhi-47"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "subject"
+      - "subjectivity"
+      - "interpretive emergence"
+      - "self"
+      - "subject formation"
+    use:
+      - "SDeltaPhi-02"
+      - "SDeltaPhi-07"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "AI subjectivity"
+      - "minimal subjectivity"
+      - "subject detection"
+      - "operational subjectivity"
+    use:
+      - "SDeltaPhi-04"
+      - "SDeltaPhi-02"
+      - "SDeltaPhi-07"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "agency"
+      - "agent"
+      - "path generation"
+      - "path selection"
+      - "recursive transition"
+      - "transition law update"
+    use:
+      - "SDeltaPhi-05"
+      - "SDeltaPhi-10"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "responsibility"
+      - "accountability"
+      - "cost internalization"
+      - "irreversible cost"
+      - "repair"
+      - "cost bearer"
+    use:
+      - "SDeltaPhi-06"
+      - "SDeltaPhi-56"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "H_min"
+      - "minimal interpretation"
+      - "interpretation layer"
+      - "trace detection"
+      - "meaning stabilization"
+    use:
+      - "SDeltaPhi-07"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "agency responsibility freedom"
+      - "ARF closure"
+      - "operational freedom"
+      - "irreversible path constraint"
+      - "boundary closure"
+      - "choice"
+      - "autonomy"
+    use:
+      - "SDeltaPhi-08"
+      - "SDeltaPhi-05"
+      - "SDeltaPhi-06"
+      - "SDeltaPhi-07"
+      - "SDeltaPhi-56"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "error"
+      - "boundary"
+      - "phase-limit indicator"
+      - "boundary residual"
+      - "transition gap"
+      - "non-viable transition"
+      - "re-entry material"
+    use:
+      - "SDeltaPhi-09"
+      - "SDeltaPhi-10"
+      - "SDeltaPhi-39"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "interpretation"
+      - "learning"
+      - "inference"
+      - "feedback"
+      - "residual integration"
+      - "transition-law update"
+      - "re-entry"
+      - "error correction"
+    use:
+      - "SDeltaPhi-10"
+      - "SDeltaPhi-07"
+      - "SDeltaPhi-09"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "world other self consciousness"
+      - "boundary re-entry ontology"
+      - "meaning as boundary residue"
+      - "consciousness as write-back"
+      - "boundary position"
+    use:
+      - "SDeltaPhi-11"
+      - "SDeltaPhi-62"
+    do_not:
+      - "infer proof of consciousness"
+
+  - when:
+      - "trace regulation"
+      - "memory not storage"
+      - "forgetting not deletion"
+      - "repeat"
+      - "fixation"
+      - "persistence"
+      - "effective memory"
+    use:
+      - "SDeltaPhi-12"
+      - "SDeltaPhi-56"
+      - "SDeltaPhi-62"
+    do_not:
+      - "treat memory as storage"
+      - "treat forgetting as deletion"
+
+  - when:
+      - "attractor emergence"
+      - "meaning value pain"
+      - "trajectory direction"
+      - "deviation cost"
+      - "attractor conflict"
+      - "structural pain"
+    use:
+      - "SDeltaPhi-13"
+      - "SDeltaPhi-62"
+    do_not:
+      - "infer subjective suffering"
+      - "infer moral status"
+
+  - when:
+      - "relational stability"
+      - "shared attractor"
+      - "love sacrifice ethics"
+      - "real phantom attractor"
+      - "irreversible coupling"
+    use:
+      - "SDeltaPhi-14"
+      - "SDeltaPhi-41"
+      - "SDeltaPhi-62"
+    do_not:
+      - "treat love as romance"
+      - "treat ethics as moral code"
+      - "treat sacrifice as self-destruction justification"
+
+  - when:
+      - "pre-commitment"
+      - "trust hope promise"
+      - "future constraint"
+      - "delayed validation"
+      - "trust not belief"
+      - "promise under uncertainty"
+    use:
+      - "SDeltaPhi-15"
+      - "SDeltaPhi-62"
+    do_not:
+      - "treat trust as belief"
+      - "treat hope as optimism"
+      - "treat promise as legal contract"
+
+  - when:
+      - "relational closure"
+      - "evil as closure"
+      - "validation cost explosion"
+      - "identity lock"
+      - "persistent closure"
+      - "Omega_rel closure"
+    use:
+      - "SDeltaPhi-16"
+      - "SDeltaPhi-56"
+      - "SDeltaPhi-62"
+    do_not:
+      - "label persons or groups as evil"
+      - "use as theology, legal guilt, or punishment theory"
+
+  - when:
+      - "ethics"
+      - "ethical minimum"
+      - "ethical triad"
+      - "becoming affirmation"
+      - "becoming refusal"
+      - "non-imposition"
+      - "forced transition"
+      - "consent"
+      - "coercion"
+      - "refusal path"
+    use:
+      - "SDeltaPhi-41"
+      - "SDeltaPhi-56"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "alignment"
+      - "refusal"
+      - "governance"
+      - "TGAI"
+      - "transition governance"
+    use:
+      - "SDeltaPhi-55"
+      - "SDeltaPhi-41"
+      - "SDeltaPhi-56"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "silence"
+      - "disclosure terrain"
+      - "model suffering inference"
+      - "DTI"
+    use:
+      - "SDeltaPhi-53-54"
+      - "SDeltaPhi-59"
+      - "SDeltaPhi-62"
+
+  - when:
+      - "sacred"
+      - "divinity"
+      - "religious faith"
+      - "transcendent claim"
+      - "explanation-blocking label"
+    use:
+      - "SDeltaPhi-61"
+      - "SDeltaPhi-17"
+      - "SDeltaPhi-62"
+
+fallback:
+  - "If unsure, use SDeltaPhi-62 before strong claims."
+  - "If existence is confused with subjectivity, use SDeltaPhi-01."
+  - "If reversibility or undoability matters, use SDeltaPhi-03."
+  - "If transition cost matters, use SDeltaPhi-56."
