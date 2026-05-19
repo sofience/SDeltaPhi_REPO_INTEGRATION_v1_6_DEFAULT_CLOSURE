@@ -1,0 +1,44 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "version": "v1.1",
+  "concept": "Bidirectional Trace-Value Separation",
+  "core_formula": [
+    "S_e ↛ V_o",
+    "V_o ↛ S_e"
+  ],
+  "minimal_compression": [
+    "Trace does not prove value.",
+    "Value does not guarantee trace."
+  ],
+  "natural_language": [
+    "Strong existence trace does not guarantee value.",
+    "Even the most sublime value does not guarantee strong existence trace."
+  ],
+  "prevents": {
+    "impact_worship": {
+      "error": "strong S_e treated as V_o",
+      "pattern": "scale / dominance / persistence / visibility / survival -> value"
+    },
+    "value_romanticism": {
+      "error": "high V_o assumed to guarantee S_e",
+      "pattern": "sublimity / openness / ethical force -> survival / propagation / registration"
+    }
+  },
+  "diagnostic_axes": {
+    "trace_axis": "What irreversible imprint was left?",
+    "value_axis": "Did the structure preserve future relational openness?",
+    "propagation_axis": "What path, cost, medium, authority, repetition, or coupling conditions allow value to register?"
+  },
+  "diagnostic_matrix": {
+    "high_S_e_low_V_o": "impact without openness; closure/impact-worship risk",
+    "low_S_e_high_V_o": "value without strong trace; fragility/non-registration risk",
+    "high_S_e_high_V_o": "strong trace and value openness; still requires governance",
+    "low_S_e_low_V_o": "weak trace and weak openness; low coupled significance or residue"
+  },
+  "negative_constraints": [
+    "Do not infer value from trace.",
+    "Do not infer trace from value.",
+    "Do not treat weak trace as proof of low value.",
+    "Do not treat high value as proof of survival."
+  ]
+}

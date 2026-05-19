@@ -1,17 +1,18 @@
 {
   "module_id": "SDeltaPhi-23",
   "title": "Co-environmentalization Dynamics",
-  "version": "v1.0",
+  "version": "v1.1",
   "package_doi": "https://doi.org/10.5281/zenodo.20287138",
-  "one_sentence": "This module extends authority editing into coupled environments and installs ontology-axiology separation as a safety boundary.",
-  "core_thesis": "In co-environmentalization, authority editing becomes coupled governance, and separating ontology from axiology is a safety boundary.",
+  "one_sentence": "This module extends authority editing into coupled environments and installs bidirectional ontology-axiology separation as a safety boundary.",
+  "core_thesis": "In co-environmentalization, authority editing becomes coupled governance, and trace strength and value openness must be separated in both directions.",
   "core_compression": {
     "CE": "two systems become each other's persistence boundary conditions",
     "coupled_authority": "authority edits in X re-enter Y and authority edits in Y re-enter X",
     "reality_anchor": "externality not reproducible by internal perturbation alone",
     "trace_strength": "S_e = irreversible external imprint",
     "value_openness": "V_o = future relational openness / maintainable coupling",
-    "safety_boundary": "S_e != V_o"
+    "safety_boundary": "S_e != V_o; S_e does not imply V_o; V_o does not imply S_e",
+    "bidirectional_trace_value_separation": "Trace does not prove value; value does not guarantee trace."
   },
   "CE_axioms": {
     "CE1": "mutual boundary",
@@ -32,6 +33,22 @@
     "Not political doctrine.",
     "Not claim that coupling is always good.",
     "Do not conflate trace strength S_e with value openness V_o.",
-    "Classify coupled authority and ontology-axiology separation dynamics only."
-  ]
+    "Classify coupled authority and ontology-axiology separation dynamics only.",
+    "Do not infer value from trace strength.",
+    "Do not infer trace strength from value openness."
+  ],
+  "bidirectional_trace_value_boundary": {
+    "formal": [
+      "S_e ↛ V_o",
+      "V_o ↛ S_e"
+    ],
+    "natural_language": [
+      "Strong existence trace does not guarantee value.",
+      "Even the most sublime value does not guarantee strong existence trace."
+    ],
+    "prevents": {
+      "impact_worship": "strong trace mistaken for value",
+      "value_romanticism": "sublime value assumed to guarantee survival, propagation, registration, or strong trace"
+    }
+  }
 }

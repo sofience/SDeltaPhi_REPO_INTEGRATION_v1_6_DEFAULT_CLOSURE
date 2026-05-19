@@ -1,6 +1,6 @@
 module_id: "SDeltaPhi-23"
 title: "Co-environmentalization Dynamics"
-version: "v1.0"
+version: "v1.1"
 role: "co_environmentalization_coupled_authority_ontology_axiology_safety_boundary_layer"
 package_doi: "https://doi.org/10.5281/zenodo.20287138"
 
@@ -47,7 +47,7 @@ entities:
 
 safety_boundary:
   formula: "S_e != V_o"
-  meaning: "trace strength is not value openness"
+  meaning: "trace strength is not value openness, and value openness does not guarantee trace strength"
 
 CE_axioms:
   - "CE1 mutual boundary"
@@ -69,3 +69,15 @@ negative_constraints:
   - "Not claim that coupling is always good."
   - "Do not conflate trace strength S_e with value openness V_o."
   - "Classify coupled authority and ontology-axiology separation dynamics only."
+
+
+bidirectional_trace_value_separation:
+  formulas:
+    - "S_e ↛ V_o"
+    - "V_o ↛ S_e"
+  natural_language:
+    - "Strong existence trace does not guarantee value."
+    - "Even the most sublime value does not guarantee strong existence trace."
+  prevents:
+    impact_worship: "strong trace mistaken for value"
+    value_romanticism: "sublime value assumed to guarantee strong trace"

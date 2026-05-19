@@ -11,12 +11,25 @@
     "question": "whether future relational trajectories remain open and maintainable",
     "meaning": "value openness"
   },
-  "safety_boundary": "S_e != V_o",
-  "rule": "Strong trace is a warning signal, not automatic value claim.",
+  "safety_boundary": "S_e != V_o; S_e ↛ V_o; V_o ↛ S_e",
+  "rule": "Strong trace is not automatic value; sublime value is not automatic strong trace.",
   "failure_if_conflated": [
     "impact-worship",
     "closure justified as value",
     "moralization without openness",
-    "governance collapse"
-  ]
+    "governance collapse",
+    "value-romanticism",
+    "fragility / non-registration risk ignored"
+  ],
+  "version": "v1.1",
+  "bidirectional_boundary": {
+    "formal": [
+      "S_e ↛ V_o",
+      "V_o ↛ S_e"
+    ],
+    "natural_language": [
+      "Strong existence trace does not guarantee value.",
+      "Even the most sublime value does not guarantee strong existence trace."
+    ]
+  }
 }

@@ -28,3 +28,12 @@ do_not_route_if:
   - "the task asks for political doctrine"
   - "the task treats impact as value"
   - "the task conflates trace strength with value openness"
+
+
+v1_1_added_triggers:
+  - "trace does not prove value"
+  - "value does not guarantee trace"
+  - "impact-worship"
+  - "value-romanticism"
+  - "S_e does not imply V_o"
+  - "V_o does not imply S_e"

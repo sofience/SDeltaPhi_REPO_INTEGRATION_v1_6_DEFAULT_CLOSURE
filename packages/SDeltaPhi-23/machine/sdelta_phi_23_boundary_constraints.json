@@ -8,7 +8,10 @@
     "not political doctrine",
     "not claim that coupling is always good",
     "not claim that strong existence traces are automatically valuable",
-    "not claim that trace strength equals value openness"
+    "not claim that trace strength equals value openness",
+    "not claim that sublime value guarantees strong trace",
+    "not claim that value automatically survives, propagates, or registers",
+    "not claim that weak trace proves low value"
   ],
   "positive_scope": [
     "co-environmentalization",
@@ -18,6 +21,10 @@
     "noise/reality inversion",
     "ontology-axiology split",
     "trace strength vs value openness",
-    "coupled drift / closure / open persistence"
-  ]
+    "coupled drift / closure / open persistence",
+    "bidirectional trace-value separation",
+    "impact-worship vs value-romanticism distinction",
+    "trace-value diagnostic matrix"
+  ],
+  "version": "v1.1"
 }

@@ -1,5 +1,7 @@
 {
   "module_id": "SDeltaPhi-23",
+  "version": "v1.1",
+  "concept": "Safety Boundary Rules",
   "rules": [
     {
       "id": "R1",
@@ -9,22 +11,42 @@
     {
       "id": "R2",
       "name": "Treat strong trace as warning, not value",
-      "formula": "strong S_e -> audit, not automatic value"
+      "formula": "strong S_e -> audit; not automatic value"
     },
     {
       "id": "R3",
+      "name": "Treat value as non-guarantee of trace",
+      "formula": "high V_o -> audit propagation / registration / survival conditions; not automatic S_e"
+    },
+    {
+      "id": "R4",
+      "name": "Bidirectional trace-value separation",
+      "formula": "S_e ↛ V_o; V_o ↛ S_e",
+      "natural_language": [
+        "Strong existence trace does not guarantee value.",
+        "Even the most sublime value does not guarantee strong existence trace."
+      ]
+    },
+    {
+      "id": "R5",
       "name": "Preserve reality anchors",
       "formula": "R prevents self-closure"
     },
     {
-      "id": "R4",
+      "id": "R6",
       "name": "Treat non-resonance as editing material",
       "formula": "non-resonance -> tau -> AEP"
     },
     {
-      "id": "R5",
+      "id": "R7",
       "name": "Diagnose coupling, not cooperation",
       "formula": "decisive diagnostic = editability under finite cost"
     }
+  ],
+  "prevents": [
+    "impact-worship",
+    "value-romanticism",
+    "closure justified as value",
+    "fragility ignored because value is assumed to survive"
   ]
 }
