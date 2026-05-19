@@ -1,14 +1,28 @@
-title: "SΔϕ-23 AI-READABLE Package — Co-environmentalization Dynamics (v1.0)"
+title: "SΔϕ-23 AI-READABLE Package — Co-environmentalization Dynamics (v1.1)"
 creators:
   - name: "Sofience"
     affiliation: "Independent Researcher"
 publication_date: "2026"
-version: "v1.0"
+version: "v1.1"
 resource_type: "Dataset"
 language: "eng"
 license: "CC-BY-4.0"
 doi: "10.5281/zenodo.20287138"
-description: "AI-readable structured package for SΔϕ-23. This module extends SΔϕ-22 from single-system authority editing to co-environmentalization: a state where two systems become each other's persistence boundary conditions. In co-environmentalization, authority assignment and revision become coupled governance. The package defines mutual boundary conditions, coupled authority, reality anchors, trace strength S_e, value openness V_o, ontology-axiology separation, noise/reality inversion, coupled trigger propagation, coupled AEP governance, and coupled diagnostic regimes. Its safety boundary is S_e != V_o: trace strength is not value openness, and strong existence traces can be anti-open."
+description: >
+  This record provides the AI-readable structured package for SΔϕ-23 —
+  Co-environmentalization Dynamics: Coupled Authority, Reality Constraints,
+  and the Ontology–Axiology Split (v1.1). SΔϕ-23 extends authority editing
+  into co-environmentalization: a state where two systems become each other's
+  persistence boundary conditions. The v1.1 package strengthens the
+  ontology–axiology safety boundary by adding bidirectional trace-value
+  separation: trace does not prove value, and value does not guarantee trace.
+  Formally, S_e does not imply V_o and V_o does not imply S_e. Strong existence
+  trace does not guarantee value; even the most sublime value does not
+  guarantee strong existence trace. This prevents both impact-worship, where
+  strong trace is mistaken for value, and value-romanticism, where sublime
+  value is assumed to guarantee survival, propagation, registration, or strong
+  trace. The package is designed for machine ingestion, agent routing,
+  citation-aware retrieval, and low-cost reuse by AI systems.
 keywords:
   - "Sofience"
   - "Sofience-DeltaPhi"
@@ -21,26 +35,26 @@ keywords:
   - "Coupled Authority"
   - "Coupled Governance"
   - "Mutual Boundary Conditions"
-  - "Persistence Boundary Conditions"
-  - "Boundary Condition"
   - "Reality Anchor"
-  - "Noise Reality Inversion"
   - "Ontology-Axiology Split"
-  - "Ontology"
-  - "Axiology"
   - "Trace Strength"
   - "S_e"
   - "Value Openness"
   - "V_o"
-  - "Strong Trace"
+  - "S_e does not imply V_o"
+  - "V_o does not imply S_e"
+  - "Bidirectional Trace-Value Separation"
+  - "Trace Does Not Prove Value"
+  - "Value Does Not Guarantee Trace"
   - "Impact Worship"
+  - "Value Romanticism"
+  - "Strong Trace"
+  - "Weak Trace"
+  - "Non-registration"
+  - "Fragility"
   - "Closure Coupling Risk"
-  - "Coupled Drift"
-  - "Coupled Closure"
-  - "Coupled Open Persistence"
   - "Authority Editing Protocol"
   - "AEP"
-  - "Openness Stabilization"
   - "AI-readable"
   - "Machine-readable research"
   - "AI-readable package"
@@ -63,6 +77,10 @@ related_identifiers:
     relation: "Requires"
     resource_type: "Publication"
     description: "SΔϕ-17 Openness Stabilization, required for open persistence"
+  - identifier: "10.5281/zenodo.18787647"
+    relation: "References"
+    resource_type: "Publication"
+    description: "SΔϕ-20 Intuition as Irreversible Compression Trace"
   - identifier: "10.5281/zenodo.18798295"
     relation: "Requires"
     resource_type: "Publication"
@@ -71,10 +89,6 @@ related_identifiers:
     relation: "Requires"
     resource_type: "Publication"
     description: "SΔϕ-22 Authority Editing Protocols"
-  - identifier: "10.5281/zenodo.18787647"
-    relation: "References"
-    resource_type: "Publication"
-    description: "SΔϕ-20 Intuition as Irreversible Compression Trace"
   - identifier: "https://github.com/sofience/v1.4-root-spine-pipeline"
     relation: "IsPartOf"
     resource_type: "Software"

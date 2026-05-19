@@ -1,11 +1,13 @@
 {
-  "package_id": "SDeltaPhi-23_AI_READABLE_PACKAGE_v1_0",
+  "package_id": "SDeltaPhi-23_AI_READABLE_PACKAGE_v1_1",
   "module_id": "SDeltaPhi-23",
   "title": "Co-environmentalization Dynamics",
-  "version": "v1.0",
+  "version": "v1.1",
   "package_doi": "https://doi.org/10.5281/zenodo.20287138",
   "created_for": "AI-readable ingestion, routing, citation-aware retrieval, and low-cost reuse by AI systems",
+  "v1_1_update": "Adds bidirectional trace-value separation: trace does not prove value; value does not guarantee trace.",
   "files": [
+    "00_PACKAGE_CHANGELOG.md",
     "00_README.md",
     "01_CANONICAL_PAPER.pdf",
     "02_CANONICAL_TEXT.md",
@@ -15,6 +17,7 @@
     "06_MINIMAL_DEFINITIONS.md",
     "07_CO_ENVIRONMENTALIZATION_MODEL.md",
     "08_COUPLED_AUTHORITY_MODEL.md",
+    "09_PACKAGE_MANIFEST.json",
     "09_REALITY_ANCHOR_MODEL.md",
     "10_ONTOLOGY_AXIOLOGY_SPLIT.md",
     "11_TRACE_STRENGTH_VS_VALUE_OPENNESS.md",
@@ -26,7 +29,11 @@
     "17_ROUTING_NOTES.md",
     "18_UPSTREAM_DOWNSTREAM_BRIDGES.md",
     "19_MINIMAL_PROMPTS.md",
+    "20_BIDIRECTIONAL_TRACE_VALUE_SEPARATION.md",
+    "CITATION.cff",
+    "LICENSE",
     "canonical/SDeltaPhi_23_CoEnvironment_OntologyAxiology_v1_0.pdf",
+    "machine/sdelta_phi_23_bidirectional_trace_value_separation.json",
     "machine/sdelta_phi_23_boundary_constraints.json",
     "machine/sdelta_phi_23_ce_axioms.json",
     "machine/sdelta_phi_23_co_environmentalization.routing.yaml",
@@ -35,6 +42,7 @@
     "machine/sdelta_phi_23_coupled_authority.json",
     "machine/sdelta_phi_23_diagnostic_regimes.json",
     "machine/sdelta_phi_23_ontology_axiology_split.json",
-    "machine/sdelta_phi_23_safety_boundary_rules.json"
+    "machine/sdelta_phi_23_safety_boundary_rules.json",
+    "metadata.yaml"
   ]
 }

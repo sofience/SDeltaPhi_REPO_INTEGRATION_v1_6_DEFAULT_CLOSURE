@@ -39,3 +39,22 @@ Treat strong trace as warning signal, not automatic value claim.
 
 Apply SΔϕ-23 and SΔϕ-62.
 Do not infer moral value, political doctrine, cooperation, or social harmony from coupling or trace strength.
+
+## Prompt 9 — Bidirectional Trace-Value Separation
+
+Apply SΔϕ-23 v1.1.
+Separate trace strength from value openness in both directions.
+
+Check:
+
+```text
+Does the trace prove value? No.
+Does the value guarantee trace? No.
+```
+
+Use:
+
+```text
+S_e ↛ V_o
+V_o ↛ S_e
+```

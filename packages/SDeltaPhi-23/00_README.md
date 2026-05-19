@@ -1,6 +1,6 @@
-# SΔϕ-23 AI-READABLE Package — Co-environmentalization Dynamics (v1.0)
+# SΔϕ-23 AI-READABLE Package — Co-environmentalization Dynamics (v1.1)
 
-This package provides the AI-readable structured companion package for **SΔϕ-23 — Co-environmentalization Dynamics: Coupled Authority, Reality Constraints, and the Ontology-Axiology Split (v1.0)**.
+This package provides the AI-readable structured companion package for **SΔϕ-23 — Co-environmentalization Dynamics: Coupled Authority, Reality Constraints, and the Ontology-Axiology Split (v1.1)**.
 
 Package DOI: `https://doi.org/10.5281/zenodo.20287138`
 
@@ -9,6 +9,38 @@ Package DOI: `https://doi.org/10.5281/zenodo.20287138`
 SΔϕ-23 is the **co-environmentalization / coupled authority / ontology-axiology split layer** of the Sofience-DeltaPhi Formalism.
 
 It extends SΔϕ-22 from single-system authority editing to coupled environments.
+
+
+## v1.1 Update — Bidirectional Trace-Value Separation
+
+This package version adds the bidirectional form of the SΔϕ-23 ontology-axiology safety boundary.
+
+```text
+Trace does not prove value.
+Value does not guarantee trace.
+
+S_e ↛ V_o
+V_o ↛ S_e
+```
+
+In natural language:
+
+```text
+Strong existence trace does not guarantee value.
+Even the most sublime value does not guarantee strong existence trace.
+```
+
+This prevents two symmetric errors:
+
+```text
+impact-worship:
+strong trace -> value
+
+value-romanticism:
+sublime value -> guaranteed strong trace
+```
+
+SΔϕ-23 therefore separates ontology and axiology in both directions.
 
 ## Core compression
 

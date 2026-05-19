@@ -1,7 +1,7 @@
 SΔϕ-23 — Co-environmentalization Dynamics
 
-**Coupled Authority, Reality Constraints, and the Ontology-Axiology Split (v1.0)**  
-Version: v1.0  
+**Coupled Authority, Reality Constraints, and the Ontology-Axiology Split (v1.1)**  
+Version: v1.1  
 Series: Sofience-DeltaPhi Formalism (SΔϕ)  
 Author: Sofience  
 Package DOI: https://doi.org/10.5281/zenodo.20287138
@@ -192,3 +192,39 @@ EQ1. If a coupled system loses its reality anchor R, what attractor does it conv
 EQ2. When A_x<->y becomes rigid, what minimal perturbations re-activate coupled AEP without collapsing into drift?
 
 EQ3. What minimal rule set prevents S_e from being mistaken as V_o under rapid trace amplification?
+
+v1.1 Addendum — Bidirectional Trace-Value Separation
+
+SΔϕ-23 originally installs ontology-axiology separation as a safety boundary:
+
+S_e != V_o
+
+
+The v1.1 package makes this boundary bidirectional:
+
+S_e ↛ V_o
+V_o ↛ S_e
+
+
+In natural language:
+
+Strong existence trace does not guarantee value.
+Even the most sublime value does not guarantee strong existence trace.
+
+
+This means:
+
+Trace does not prove value.
+Value does not guarantee trace.
+
+
+The first direction prevents impact-worship: a strong irreversible imprint, wide propagation, institutional dominance, or long persistence does not by itself establish value openness.
+
+The second direction prevents value-romanticism: a sublime, ethical, beautiful, or open value does not by itself guarantee strong trace formation, survival, propagation, recognition, or historical fixation.
+
+Therefore SΔϕ-23 treats trace strength and value openness as separate axes that may interact but cannot prove one another.
+
+strong trace without value openness -> possible closure / impact-worship
+high value openness without strong trace -> possible fragility / non-registration
+strong trace + value openness -> requires separate coupled governance analysis
+weak trace + low value openness -> low coupled significance or unregistered residue
