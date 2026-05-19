@@ -1,0 +1,166 @@
+SΔϕ-26 — Irreversibility as Restoration Cost Explosion
+
+**Minimal Fixation Conditions after Pre-detection (v1.0)**  
+Version: v1.0  
+Series: Sofience-DeltaPhi Formalism (SΔϕ)  
+Author: Sofience  
+Package DOI: https://doi.org/10.5281/zenodo.20292425
+
+ Core thesis
+
+A transition becomes irreversible not when reversal is absolutely impossible, but when restoration cost exceeds the threshold of practical return.
+
+This paper extends SΔϕ-25 by clarifying when a latent or newly registered difference becomes a fixed event. The claim is minimal: irreversibility should not be treated as metaphysical finality or absolute undo impossibility. Instead, a transition becomes irreversible when return remains formally conceivable yet is no longer practically selectable within the operative system.
+
+Under this view, eventhood depends on the economy of reversal. A difference becomes historically consequential when restoration cost rises beyond the system threshold for practical return. Thus, the world is not divided between absolutely reversible and absolutely irreversible transitions, but between low-cost return and cost-exploded fixation.
+
+ 1. Problem
+
+SΔϕ-25 established that a difference may already be operative before detection. Yet not every operative difference becomes an event. Some differences dissipate, some remain latent, and some pass into registration without becoming historically decisive. The unresolved question is therefore not merely when a difference is detected, but when a difference becomes practically irreversible.
+
+This paper proposes that irreversibility is best defined by restoration cost. What fixes an event is not the bare fact that something happened, but the closure of low-cost return.
+
+ 2. Minimal definitions
+
+ Reversibility
+
+A state transition is reversible when restoration to a prior state remains available at sufficiently low cost.
+
+
+Reversible iff C_restore(t) < theta
+
+
+ Irreversibility
+
+A state transition is irreversible when restoration cost exceeds the threshold of practical return.
+
+
+Irreversible iff C_restore(t) >= theta
+
+
+ Event fixation
+
+An event becomes fixed when its reversal is no longer selected within the available cost structure.
+
+
+Fixation(e) iff C_restore(e) >= theta
+
+
+ Restoration cost
+
+Restoration cost is the total burden required to return from a present state to a prior state, including energetic, temporal, informational, networked, and interpretive costs.
+
+
+C_restore(t) = f(E, T, I, N, M)
+
+
+ theta — Practical return threshold
+
+The system-dependent threshold below which return remains practically selectable.
+
+ Formal reversibility
+
+Formal reversibility means that prior state restoration remains logically describable or computationally representable.
+
+ Practical irreversibility
+
+Practical irreversibility means that restoration remains formally conceivable but restoration cost rises beyond the threshold at which the system can or will no longer reverse the transition.
+
+ 3. Formal and practical reversibility
+
+Formal reversibility does not guarantee practical reversibility. A system may still specify the prior state while lacking any economical path back to it. Therefore logical reversibility, computational reversibility, and actual return must be separated.
+
+ 4. Minimal axioms
+
+ Axiom 26-1 — Irreversibility is economic before it is absolute
+
+A transition is not irreversible because reversal is impossible, but because reversal is no longer economical within the operative system.
+
+
+irreversibility = cost-exploded return
+not absolute undo impossibility
+
+
+ Axiom 26-2 — Event fixation follows cost escalation
+
+Event fixation occurs when restoration cost rises faster than the system capacity or willingness to reverse.
+
+
+C_restore rises beyond practical return capacity -> fixation
+
+
+ Axiom 26-3 — Historical consequence begins at practical non-return
+
+Practical irreversibility is the condition under which a transition becomes historically consequential.
+
+
+practical non-return -> historical consequence
+
+
+ Axiom 26-4 — Eventhood depends on closure of low-cost return
+
+The eventhood of a transition depends not merely on its occurrence, but on closure of low-cost return.
+
+
+eventhood = occurrence + closure of low-cost return
+
+
+ 5. Minimal formulae
+
+
+Restoration cost:
+C_restore(t) = f(E, T, I, N, M)
+
+Reversibility condition:
+Reversible iff C_restore(t) < theta
+
+Irreversibility condition:
+Irreversible iff C_restore(t) >= theta
+
+Event fixation:
+Fixation(e) iff C_restore(e) >= theta
+
+
+Here E denotes energetic or material cost, T temporal cost, I informational reconstruction cost, N network propagation cost, and M memory or interpretive residue cost. Theta denotes the system-dependent threshold of practical return.
+
+ 6. Minimal examples
+
+ Broken cup
+
+The prior configuration may remain physically describable, yet the cost required to reconstruct the exact prior state is prohibitively high. The transition is therefore practically irreversible.
+
+ Internet trace
+
+A post may be deleted, but copies, screenshots, indexing, social propagation, and interpretive memory remain. Formal deletion does not restore the prior world-state at acceptable cost.
+
+ Virtual rollback
+
+A simulated environment may allow rewind, but if observers, logs, external systems, or branching consequences retain the trace, rollback of one layer does not restore the total prior condition.
+
+ 7. Consequence for event theory
+
+Under this framework, many transitions occur, but only some become fixed events. A transition becomes an event in the full SΔϕ sense only when a difference passes from latent activity into registration and restoration cost rises beyond the threshold of practical return.
+
+
+Eventhood = detected difference + irreversible fixation.
+
+
+ 8. Digital and virtual environments
+
+Digital systems often appear reversible because copying is cheap, rollback is technically possible, and records can be edited or deleted. Yet digital environments may intensify irreversibility because replication is rapid, distributed observation multiplies traces, and restoration must address not one state but a network of propagated consequences.
+
+Virtuality therefore does not necessarily weaken irreversibility. It may accelerate practical irreversibility by lowering propagation cost while raising restoration cost.
+
+ 9. Final thesis
+
+Irreversibility is restoration cost explosion. An event is fixed when return is no longer practically selectable. What fixes the world is not the impossibility of undoing, but the closure of acceptable return.
+
+ 10. Series relation
+
+SΔϕ-25 explained how difference may exist before detection. SΔϕ-26 explains when such difference becomes irreversibly fixed as an event. Together they define a minimal sequence:
+
+
+latent difference
+-> registration threshold
+-> restoration cost escalation
+-> event fixation
