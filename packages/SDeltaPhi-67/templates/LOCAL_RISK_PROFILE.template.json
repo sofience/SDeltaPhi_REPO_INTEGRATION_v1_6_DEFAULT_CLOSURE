@@ -1,0 +1,14 @@
+{
+  "adapter_id": "local-risk-profile-example",
+  "adapter_version": "v1.0",
+  "risk_dimensions": {
+    "domain_risk": "low | medium | high | critical",
+    "user_harm_potential": "low | medium | high | critical",
+    "external_world_write_access": false,
+    "rollback_capacity": "high | medium | low | none",
+    "verification_burden": "low | medium | high | critical",
+    "restoration_cost_exposure": "low | medium | high | critical",
+    "authority_sensitivity": "low | medium | high | critical"
+  },
+  "required_escalations": []
+}

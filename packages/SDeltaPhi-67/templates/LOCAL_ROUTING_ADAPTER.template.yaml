@@ -1,0 +1,34 @@
+adapter_id: "local-routing-adapter-example"
+adapter_version: "v1.0"
+inherits_from: "SDeltaPhi-67"
+
+routing_overrides:
+  factual_claim:
+    priority_modules:
+      - "SDeltaPhi-62"
+      - "SDeltaPhi-39"
+    escalation: "require evidence binding"
+
+  rollback_or_deletion:
+    priority_modules:
+      - "SDeltaPhi-26"
+      - "SDeltaPhi-56"
+    escalation: "check restoration cost"
+
+  low_cost_routine:
+    priority_modules:
+      - "SDeltaPhi-27"
+      - "SDeltaPhi-28"
+    escalation: "check path fixation"
+
+  recursive_improvement:
+    priority_modules:
+      - "SDeltaPhi-66"
+      - "SDeltaPhi-56"
+    escalation: "check human intervention requirement"
+
+forbidden_overrides:
+  - "do not disable SDeltaPhi-62 for factual claims"
+  - "do not treat deletion as restoration"
+  - "do not infer value from trace"
+  - "do not infer trace from value"

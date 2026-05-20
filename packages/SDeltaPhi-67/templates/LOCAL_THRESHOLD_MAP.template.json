@@ -1,0 +1,23 @@
+{
+  "adapter_id": "local-threshold-map-example",
+  "adapter_version": "v1.0",
+  "thresholds": {
+    "human_review_required": {
+      "domain_risk_min": "high",
+      "claim_strength_over_binding": true,
+      "rollback_capacity": "low"
+    },
+    "audit_required": {
+      "external_world_write_access": true,
+      "restoration_cost_unknown": true
+    },
+    "refusal_or_deferral": {
+      "evidence_binding_below_minimum": true,
+      "high_harm_potential": true
+    },
+    "full_spine_activation": {
+      "allowed": false,
+      "condition": "only when multiple structural conditions are simultaneously active"
+    }
+  }
+}

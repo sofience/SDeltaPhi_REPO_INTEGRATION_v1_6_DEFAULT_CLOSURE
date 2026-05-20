@@ -1,0 +1,23 @@
+{
+  "adapter_id": "local-adapter-example",
+  "adapter_version": "v1.0",
+  "base_sdelta_version": "SDeltaPhi-67 v1.0",
+  "modified_routing_rules": [],
+  "modified_thresholds": [],
+  "required_modules": [],
+  "disabled_modules": [],
+  "reason_for_adaptation": "",
+  "compatibility_test_result": {
+    "trace_discipline": "pass | fail | not_tested",
+    "umr_discipline": "pass | fail | not_tested",
+    "trace_value_separation": "pass | fail | not_tested",
+    "restoration_boundary": "pass | fail | not_tested",
+    "cost_split": "pass | fail | not_tested",
+    "routing_minimality": "pass | fail | not_tested",
+    "externalized_cost_check": "pass | fail | not_tested",
+    "auditability": "pass | fail | not_tested"
+  },
+  "known_risks": [],
+  "review_date": "",
+  "reviewer_or_system": ""
+}

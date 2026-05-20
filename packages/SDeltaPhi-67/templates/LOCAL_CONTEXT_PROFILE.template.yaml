@@ -1,0 +1,27 @@
+adapter_id: "local-adapter-example"
+adapter_version: "v1.0"
+base_sdelta_module: "SDeltaPhi-67"
+system_type: "chatbot | agent | medical_ai | legal_ai | creative_ai | governance_ai | research_ai | other"
+domain: "general"
+operator: "local system / organization / individual"
+deployment_context: "offline | hosted | API | autonomous agent | human-supervised"
+
+capabilities:
+  memory_access: "none | session | long-term | external"
+  tool_access: []
+  action_authority: "none | recommendation | execution_with_approval | execution_autonomous"
+  external_world_write_access: false
+
+risk_profile:
+  domain_risk: "low | medium | high | critical"
+  user_harm_potential: "low | medium | high | critical"
+  rollback_capacity: "high | medium | low | none"
+  evidence_requirement: "low | medium | high | strict"
+
+default_sdelta_routes:
+  - "minimal_ai_boot_route"
+
+required_modules:
+  - "SDeltaPhi-62"
+
+notes: ""
