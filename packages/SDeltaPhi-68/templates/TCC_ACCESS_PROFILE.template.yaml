@@ -1,0 +1,26 @@
+profile_id: "tcc-access-profile-example"
+base_modules:
+  - "SDeltaPhi-56"
+  - "SDeltaPhi-68"
+
+task_transition: ""
+
+transition_completion_steps:
+  - "access"
+  - "context_load"
+  - "generation"
+  - "verification"
+  - "correction"
+  - "integration"
+  - "restabilization"
+
+cost_estimates:
+  access: "low | medium | high | unknown"
+  context_load: "low | medium | high | unknown"
+  generation: "low | medium | high | unknown"
+  verification: "low | medium | high | unknown"
+  correction: "low | medium | high | unknown"
+  integration: "low | medium | high | unknown"
+  restabilization: "low | medium | high | unknown"
+
+estimated_total_tcc: "low | medium | high | unknown"

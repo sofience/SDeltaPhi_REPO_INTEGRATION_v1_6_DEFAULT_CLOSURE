@@ -1,0 +1,18 @@
+profile_id: "cheap-intelligence-cost-profile-example"
+base_module: "SDeltaPhi-68"
+visible_price: "free | low | medium | high | gated | unavailable"
+task_transition: ""
+direct_price_cost: "low | medium | high | unavailable"
+
+hidden_cost_fields:
+  access: "low | medium | high | unknown"
+  context: "low | medium | high | unknown"
+  verification: "low | medium | high | unknown"
+  repetition: "low | medium | high | unknown"
+  tooling: "low | medium | high | unknown"
+  restabilization: "low | medium | high | unknown"
+  infrastructure: "low | medium | high | unknown"
+  self_location: "low | medium | high | unknown"
+
+cost_theater_risk: "low | medium | high | unknown"
+notes: ""

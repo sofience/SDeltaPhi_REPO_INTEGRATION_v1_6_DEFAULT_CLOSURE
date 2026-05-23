@@ -1,0 +1,18 @@
+{
+  "audit_id": "cost-theater-audit-example",
+  "base_module": "SDeltaPhi-68",
+  "visible_claim": "AI is cheap/free/accessible",
+  "task_transition": "",
+  "c_visible": "low | medium | high | unavailable",
+  "tcc_total_estimate": "low | medium | high | unknown",
+  "hidden_costs": {
+    "verification": "low | medium | high | unknown",
+    "repetition": "low | medium | high | unknown",
+    "context_loss": "low | medium | high | unknown",
+    "tooling_gap": "low | medium | high | unknown",
+    "restabilization": "low | medium | high | unknown",
+    "self_location": "low | medium | high | unknown"
+  },
+  "cost_theater_present": "yes | no | uncertain",
+  "boundary_notes": []
+}

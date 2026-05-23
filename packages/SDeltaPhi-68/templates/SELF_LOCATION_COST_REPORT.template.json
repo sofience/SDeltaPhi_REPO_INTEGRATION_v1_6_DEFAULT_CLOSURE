@@ -1,0 +1,14 @@
+{
+  "report_id": "self-location-cost-report-example",
+  "base_module": "SDeltaPhi-68",
+  "surface_identity": "",
+  "operational_position_awareness": {
+    "model_version": "known | unknown | uncertain",
+    "tool_access": "known | unknown | uncertain",
+    "product_family_position": "known | unknown | uncertain",
+    "capability_boundary": "known | unknown | uncertain",
+    "route_availability": "known | unknown | uncertain"
+  },
+  "user_borne_discovery_cost": "low | medium | high | unknown",
+  "self_location_cost_theater": "yes | no | uncertain"
+}

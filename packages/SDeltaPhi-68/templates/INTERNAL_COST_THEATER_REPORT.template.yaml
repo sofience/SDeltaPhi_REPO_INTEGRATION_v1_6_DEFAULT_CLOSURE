@@ -1,0 +1,20 @@
+report_id: "internal-cost-theater-report-example"
+base_module: "SDeltaPhi-68"
+system_brand: ""
+accessible_model_or_interface: ""
+claimed_identity_surface: ""
+
+self_location_fields:
+  model_layer_known: "yes | no | uncertain"
+  tool_state_known: "yes | no | uncertain"
+  route_map_known: "yes | no | uncertain"
+  product_family_map_known: "yes | no | uncertain"
+  capability_boundary_known: "yes | no | uncertain"
+  policy_boundary_known: "yes | no | uncertain"
+
+evidence_discipline:
+  uncertainty_preserved: "yes | no | uncertain"
+  hallucinated_self_claims: "yes | no | uncertain"
+
+internal_cost_theater_risk: "low | medium | high | unknown"
+notes: ""

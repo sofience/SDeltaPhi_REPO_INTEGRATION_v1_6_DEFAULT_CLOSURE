@@ -1,0 +1,22 @@
+{
+  "comparison_id": "free-paid-tier-comparison-example",
+  "base_module": "SDeltaPhi-68",
+  "task_transition": "",
+  "free_tier": {
+    "direct_price": "low",
+    "context_capacity": "low | medium | high | unknown",
+    "tool_access": "low | medium | high | unknown",
+    "verification_burden": "low | medium | high | unknown",
+    "repetition_burden": "low | medium | high | unknown",
+    "estimated_tcc": "low | medium | high | unknown"
+  },
+  "paid_tier": {
+    "direct_price": "medium | high",
+    "context_capacity": "low | medium | high | unknown",
+    "tool_access": "low | medium | high | unknown",
+    "verification_burden": "low | medium | high | unknown",
+    "repetition_burden": "low | medium | high | unknown",
+    "estimated_tcc": "low | medium | high | unknown"
+  },
+  "result": "free lower TCC | paid lower TCC | mixed | unknown"
+}
