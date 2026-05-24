@@ -1,0 +1,11 @@
+{
+  "report_id": "trigger-recognition-report-example",
+  "base_module": "SDeltaPhi-31",
+  "closed_default_path": "",
+  "anomaly": "",
+  "anomaly_visible": "yes | no | uncertain",
+  "treated_as_trigger": "yes | no | uncertain",
+  "interrupted_default_continuation": "yes | no | uncertain",
+  "result": "trigger_recognized | tolerated_as_noise | ignored | unknown",
+  "notes": ""
+}

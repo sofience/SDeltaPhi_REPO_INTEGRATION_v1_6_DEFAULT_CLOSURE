@@ -1,0 +1,17 @@
+profile_id: "cost-assumption-profile-example"
+base_modules:
+  - "SDeltaPhi-31"
+  - "SDeltaPhi-56"
+
+closed_default_path: ""
+reopen_path: ""
+
+cost_asymmetry:
+  default_continuation_cost: "low | medium | high | unknown"
+  reopening_cost: "low | medium | high | unknown"
+  formula: "C(P_default) < C(P_reopen)"
+
+cost_bearer: ""
+cost_assumed: "yes | no | uncertain"
+cost_displaced_to: ""
+result: "assumed | displaced | avoided | unknown"

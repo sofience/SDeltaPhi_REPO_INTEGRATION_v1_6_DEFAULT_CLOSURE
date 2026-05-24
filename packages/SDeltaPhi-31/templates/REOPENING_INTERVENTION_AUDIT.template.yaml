@@ -1,0 +1,39 @@
+audit_id: "reopening-intervention-audit-example"
+base_module: "SDeltaPhi-31"
+closed_default_path: ""
+domain: "platform | organization | policy | AI system | interface | governance | other"
+
+trigger_recognition:
+  anomaly_identified: "yes | no | uncertain"
+  treated_as_trigger: "yes | no | uncertain"
+  urgency_level: "low | medium | high | unknown"
+  status: "recognized | tolerated_as_noise | ignored | unknown"
+
+cost_assumption:
+  cost_bearer: ""
+  cost_type:
+    - "delay"
+    - "conflict"
+    - "coordination"
+    - "institutional_friction"
+    - "legal_risk"
+    - "political_risk"
+    - "resource_cost"
+    - "responsibility"
+  cost_assumed: "yes | no | uncertain"
+  status: "assumed | displaced | avoided | unknown"
+
+reopening_act:
+  alternative_restored: "yes | no | uncertain"
+  path_operational_again: "yes | no | uncertain"
+  action_type: "appeal_reopened | blocked_option_restored | procedure_changed | exception_actionable | other"
+  status: "real | symbolic | absent | unknown"
+
+persistence_of_reentry:
+  future_exceptions_can_reenter: "yes | no | uncertain"
+  durable_channel_created: "yes | no | uncertain"
+  one_time_only: "yes | no | uncertain"
+  status: "persistent | one_time | collapsed | unknown"
+
+reopening_classification: "operationally_open | symbolic_rupture_only | partially_reopened | still_closed | unknown"
+notes: ""

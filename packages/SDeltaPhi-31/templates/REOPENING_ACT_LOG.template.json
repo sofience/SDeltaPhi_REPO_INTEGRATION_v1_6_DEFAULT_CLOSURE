@@ -1,0 +1,10 @@
+{
+  "log_id": "reopening-act-log-example",
+  "base_module": "SDeltaPhi-31",
+  "closed_default_path": "",
+  "action_type": "appeal_reopened | blocked_option_restored | procedure_changed | exception_actionable | review_route_reactivated | alternate_path_created | other",
+  "alternative_operational_again": "yes | no | uncertain",
+  "dominant_path_changed": "yes | no | uncertain",
+  "evidence": [],
+  "result": "reopening_act_present | symbolic_only | absent | uncertain"
+}

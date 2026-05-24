@@ -1,0 +1,13 @@
+check_id: "reentry-persistence-check-example"
+base_module: "SDeltaPhi-31"
+reopened_path: ""
+
+future_exceptions_can_reenter: "yes | no | uncertain"
+known_route_exists: "yes | no | uncertain"
+route_operational_without_crisis: "yes | no | uncertain"
+authority_required_to_respond: "yes | no | uncertain"
+rollback_or_review_window_defined: "yes | no | uncertain"
+documented_and_repeatable: "yes | no | uncertain"
+survives_attention_fade: "yes | no | uncertain"
+
+result: "persistent_reentry | one_time_exception | collapsed | unknown"

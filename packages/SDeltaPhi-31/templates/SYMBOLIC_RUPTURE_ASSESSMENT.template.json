@@ -1,0 +1,14 @@
+{
+  "assessment_id": "symbolic-rupture-assessment-example",
+  "base_module": "SDeltaPhi-31",
+  "closed_default_path": "",
+  "operations": {
+    "T_r_trigger_recognition": "pass | fail | uncertain",
+    "C_a_cost_assumption": "pass | fail | uncertain",
+    "R_o_reopening_act": "pass | fail | uncertain",
+    "P_r_persistence_of_reentry": "pass | fail | uncertain"
+  },
+  "formula": "D*closed -> operationally open iff T_r and C_a and R_o and P_r",
+  "result": "operationally_open | symbolic_rupture_only | partial | unknown",
+  "reason": ""
+}
