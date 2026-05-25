@@ -1,0 +1,28 @@
+{
+  "current_module": {
+    "id": "SDeltaPhi-69",
+    "title": "Reversibility as Overwrite",
+    "doi": "10.5281/zenodo.20375357"
+  },
+  "lower_layer": [
+    {
+      "id": "SDeltaPhi-56",
+      "title": "Transition Completion Cost",
+      "doi": "10.5281/zenodo.20116959",
+      "relation": "measures restoration / overwrite cost"
+    }
+  ],
+  "upstream_concepts": [
+    "irreversibility",
+    "phase-change formalism",
+    "cost internalization",
+    "transition history"
+  ],
+  "downstream_applications": [
+    "policy repeal",
+    "historical liberation",
+    "narrative reset endings",
+    "AI rollback",
+    "data recovery"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "SDeltaPhi-69",
+      "label": "Reversibility as Overwrite"
+    },
+    {
+      "id": "surface_equivalence",
+      "label": "Surface Equivalence"
+    },
+    {
+      "id": "transition_history",
+      "label": "Transition History"
+    },
+    {
+      "id": "residual_irreversibility",
+      "label": "Residual Irreversibility"
+    },
+    {
+      "id": "tcc",
+      "label": "SΔϕ-56 TCC"
+    },
+    {
+      "id": "0_360_analogy",
+      "label": "0° / 360° Analogy"
+    }
+  ],
+  "edges": [
+    {
+      "from": "SDeltaPhi-69",
+      "to": "surface_equivalence",
+      "relation": "distinguishes"
+    },
+    {
+      "from": "SDeltaPhi-69",
+      "to": "transition_history",
+      "relation": "preserves"
+    },
+    {
+      "from": "SDeltaPhi-69",
+      "to": "residual_irreversibility",
+      "relation": "diagnoses"
+    },
+    {
+      "from": "SDeltaPhi-69",
+      "to": "tcc",
+      "relation": "invokes_as_lower_layer"
+    },
+    {
+      "from": "0_360_analogy",
+      "to": "SDeltaPhi-69",
+      "relation": "illustrates"
+    }
+  ]
+}

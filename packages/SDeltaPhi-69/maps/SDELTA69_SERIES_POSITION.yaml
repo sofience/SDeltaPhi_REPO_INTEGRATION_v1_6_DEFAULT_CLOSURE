@@ -1,0 +1,13 @@
+series: SDeltaPhi
+module_number: 69
+module_id: SDeltaPhi-69
+title: Reversibility as Overwrite
+version: v1.0
+provisional_doi: "10.5281/zenodo.20375357"
+position_summary: >
+  SΔϕ-69 extends the irreversibility and cost-diagnostics sequence by distinguishing apparent surface return from transition-history erasure.
+  It acts as a routing module for rollback, repeal, reset, restoration, and repair cases.
+preferred_lower_layer_reference:
+  id: SDeltaPhi-56
+  title: Transition Completion Cost
+  doi: "10.5281/zenodo.20116959"

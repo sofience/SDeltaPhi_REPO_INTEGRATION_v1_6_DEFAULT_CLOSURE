@@ -1,0 +1,13 @@
+module: SDeltaPhi-69
+title: Reversibility as Overwrite
+relation_to_TCC:
+  parent_principle: "SΔϕ-69 defines apparent reversibility as overwrite rather than true return."
+  lower_layer_module: "SΔϕ-56 Transition Completion Cost"
+  preferred_tcc_reference_doi: "10.5281/zenodo.20116959"
+  function_of_TCC:
+    - "Measure the cost required to reconstruct a surface state resembling a prior state."
+    - "Estimate friction, institutional cost, compliance cost, reconstruction cost, and residual cost."
+    - "Distinguish low-cost rollback from high-cost overwrite."
+  caution:
+    - "TCC remains an independent module."
+    - "SΔϕ-69 invokes TCC only when measuring overwrite or restoration cost."
