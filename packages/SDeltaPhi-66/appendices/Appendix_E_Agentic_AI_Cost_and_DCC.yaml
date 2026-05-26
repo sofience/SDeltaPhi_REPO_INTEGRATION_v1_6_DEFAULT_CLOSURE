@@ -1,0 +1,41 @@
+appendix_id: SDeltaPhi-66-Appendix-E
+title: Agentic AI Cost and Delegation Completion Cost
+version: v1.1-addendum
+parent_module: SDeltaPhi-66
+parent_title: Human Intervention Requirement and Recursive Improvement Gate
+parent_doi: https://doi.org/10.5281/zenodo.20276641
+reserved_doi: https://doi.org/10.5281/zenodo.20383851
+case_type: enterprise_ai_cost_and_delegation_completion_cost
+core_claim: AI capability does not imply low Delegation Completion Cost.
+core_distinction:
+- AI can perform the task
+- AI can be delegated the task
+- AI delegation is lower-cost after verification, repair, and application costs are
+  included
+primary_formula: DCC_i = Cost(delegate_i + retrieve_i + verify_i + repair_i + apply_i)
+expanded_agentic_formula_terms:
+- task_translation
+- prompt_or_instruction_design
+- agent_execution_tokens
+- tool_calls
+- intermediate_state_tracking
+- result_retrieval
+- human_verification
+- error_repair
+- integration_into_workflow
+- monitoring
+- accountability_and_log_review
+recommended_ai_use:
+- Use when enterprise AI agents increase cost despite apparent automation.
+- Use when token consumption, tool calls, verification, and repair burden matter.
+- Use to distinguish capability claims from completed-transition cost claims.
+do_not_use_as:
+- evidence that AI delegation is always more expensive than human labor
+- evidence that human execution is always preferable
+- evidence that agentic AI is economically impossible
+- a replacement for enterprise cost accounting
+- a general rejection of recursive improvement or AI-assisted software engineering
+references:
+- label: Fortune 2026-05-22
+  url: https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/
+  description: Article used as illustrative case for agentic AI cost and DCC.
