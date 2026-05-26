@@ -1,0 +1,13 @@
+related_identifiers:
+  - identifier: "https://doi.org/10.5281/zenodo.20391619"
+    relationType: "IsIdenticalTo"
+    resourceTypeGeneral: "Text"
+  - identifier: "https://doi.org/10.5281/zenodo.20116959"
+    relationType: "References"
+    resourceTypeGeneral: "Text"
+  - identifier: "https://doi.org/10.5281/zenodo.18730265"
+    relationType: "References"
+    resourceTypeGeneral: "Text"
+  - identifier: "https://doi.org/10.5281/zenodo.18730448"
+    relationType: "References"
+    resourceTypeGeneral: "Text"

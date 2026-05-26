@@ -1,0 +1,73 @@
+title: "SΔϕ-70 — Nihility, Helplessness, and Fictional Habitation: World-Binding Failure, Binding Fiction, and Exit Fiction (v1.0, AI-Readable Package)"
+upload_type: publication
+publication_type: workingpaper
+version: "v1.0"
+doi: "10.5281/zenodo.20391619"
+publication_date: "2026-05-26"
+language: "eng"
+access_right: "open"
+license: "cc-by-4.0"
+creators:
+  - name: "Sofience"
+description: >
+  SΔϕ-70 introduces a World-Binding account of nihility, helplessness, and
+  fictional habitation within the Sofience–Δϕ Formalism Series. It defines
+  nihility as the failure of intense internal Δϕ to bind to the world,
+  helplessness as the state in which the cost of World-Binding is perceived,
+  learned, or structurally imposed as too high to initiate transition, and
+  fiction as a fabricated habitation structure through which humans bind to,
+  edit, or exit the world.
+
+  This AI-readable package includes the canonical working paper, AI entrypoint,
+  machine summaries, diagnostic schema, routing rules, concept maps,
+  World-Binding matrix, Binding Fiction Score, Editing Activity Score, Exit
+  Fiction Gate, validation checklist, failure modes, do-not-use conditions,
+  appendix cases, metadata, citation file, license, manifest, and checksums.
+
+  The package is designed for AI crawling, citation, semantic search, prompt-level
+  use, and reproducible diagnosis of World-Binding failure, World-Binding cost,
+  fictional habitation, Binding Fiction, Editing Fiction, Closed Fiction, and
+  Exit Fiction.
+keywords:
+  - SΔϕ
+  - SDeltaPhi
+  - Sofience
+  - Sofience–Δϕ Formalism
+  - World-Binding
+  - nihility
+  - helplessness
+  - fictional habitation
+  - Binding Fiction
+  - Editing Fiction
+  - Closed Fiction
+  - Exit Fiction
+  - Binding Fiction Score
+  - Editing Activity Score
+  - Exit Fiction Gate
+  - World-Binding cost
+  - TCC
+  - simulation fatigue
+  - meaninglessness
+  - fiction theory
+  - narrative habitation
+  - mathematics as Binding Fiction
+  - physical laws
+  - Hunminjeongeum
+  - Hangul
+  - AI utopia
+  - AI dystopia
+  - afterlife
+  - liberation
+related_identifiers:
+  - identifier: "https://doi.org/10.5281/zenodo.20391619"
+    relation: "isIdenticalTo"
+    resource_type: "publication-workingpaper"
+  - identifier: "https://doi.org/10.5281/zenodo.20116959"
+    relation: "references"
+    resource_type: "publication-workingpaper"
+    description: "SΔϕ-56 Transition Completion Cost, used as lower-layer reference for World-Binding cost."
+notes: >
+  This package must not be used as a clinical diagnosis or as a claim that
+  fiction, religion, mathematics, physics, science, law, or language is fake.
+  In this module, fiction means fabricated symbolic habitation structure, not
+  necessarily falsehood.

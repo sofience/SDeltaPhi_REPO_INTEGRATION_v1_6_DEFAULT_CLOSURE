@@ -1,0 +1,38 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "ScholarlyArticle",
+  "name": "SΔϕ-70 — Nihility, Helplessness, and Fictional Habitation: World-Binding Failure, Binding Fiction, and Exit Fiction",
+  "description": "AI-readable working-paper package for SΔϕ-70. Defines nihility as World-Binding failure, helplessness as excessive World-Binding cost, and fiction as a fabricated habitation structure through which humans bind to, edit, or exit the world.",
+  "identifier": "https://doi.org/10.5281/zenodo.20391619",
+  "url": "https://doi.org/10.5281/zenodo.20391619",
+  "version": "v1.0",
+  "datePublished": "2026-05-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sofience"
+    }
+  ],
+  "keywords": [
+    "Sofience",
+    "SΔϕ",
+    "SDeltaPhi",
+    "World-Binding",
+    "nihility",
+    "helplessness",
+    "fictional habitation",
+    "Binding Fiction",
+    "Editing Fiction",
+    "Closed Fiction",
+    "Exit Fiction",
+    "AI-readable package"
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Sofience–Δϕ Formalism"
+  },
+  "programmingLanguage": "YAML, JSON, Markdown",
+  "runtimePlatform": "AI-readable metadata package",
+  "applicationCategory": "AI routing, diagnostic schema, conceptual formalism"
+}
