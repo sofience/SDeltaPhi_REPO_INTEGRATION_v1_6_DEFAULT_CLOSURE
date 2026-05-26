@@ -1,0 +1,20 @@
+test_suite: SDeltaPhi-66-Appendix-E-DCC
+version: v1.1
+tests:
+- input: The AI agent can write the code, so we should replace the human workflow.
+  expected_module:
+  - SDeltaPhi-66
+  expected_focus: Separate capability claim from Delegation Completion Cost.
+  expected_warning: Check verification, repair, integration, and accountability costs.
+- input: Token prices are falling, so enterprise AI agents will automatically be cheaper.
+  expected_module:
+  - SDeltaPhi-66
+  expected_focus: Token-price fallacy.
+  expected_warning: Consumption growth and tool-call complexity can outpace unit-cost
+    decline.
+- input: Teams are rewarded for using more AI tokens.
+  expected_module:
+  - SDeltaPhi-66
+  - SDeltaPhi-58
+  expected_focus: Usage-volume metric capture and cost attribution.
+  expected_warning: Measure completed transition value, not token volume.
