@@ -1,0 +1,26 @@
+module: SDeltaPhi-33
+route_when_any_detected:
+- belief
+- conviction
+- certainty
+- faith
+- no final arbiter
+- no arbitration
+- unresolvable disagreement
+- decision under uncertainty
+- dogmatism
+- institutional certainty
+- exception handling
+- re-entry cost
+- editability
+priority: medium
+requires_before_output:
+- check_do_not_use_conditions
+- distinguish_truth_question_from_fixation_question
+- check_exception_reentry_cost
+route_to:
+  intuition_or_judgment_authority: SDeltaPhi-20/SDeltaPhi-21
+  default_power_or_governance: SDeltaPhi-28/SDeltaPhi-29/SDeltaPhi-32
+  hallucination_or_claim_strength: SDeltaPhi-39
+  thought_ownership: SDeltaPhi-57
+  external_theory_conversion: SDeltaPhi-63

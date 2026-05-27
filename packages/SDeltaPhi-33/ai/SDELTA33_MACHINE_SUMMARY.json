@@ -1,0 +1,52 @@
+{
+  "id": "SDeltaPhi-33",
+  "title": "Belief, Conviction, and Certainty as Layers of Path Fixation",
+  "subtitle": "Minimal Conditions under the Absence of Arbitration",
+  "version": "v1.0",
+  "doi": "10.5281/zenodo.20402901",
+  "package_type": "AI-readable working-paper package",
+  "core_claim": "Belief is not truth possession; it is minimal path fixation under absent arbitration.",
+  "functional_ladder": {
+    "belief": "persistence",
+    "conviction": "directionality",
+    "certainty": "closure risk"
+  },
+  "key_variables": {
+    "P": "current operational path",
+    "Delta_phi": "path-difference measure",
+    "A": "arbitration availability; A=0 means no final arbiter",
+    "F": "fixation strength",
+    "R": "re-entry intensity",
+    "W_a": "authority weight",
+    "E_r": "exception re-entry cost"
+  },
+  "use_when": [
+    "belief",
+    "conviction",
+    "certainty",
+    "faith",
+    "no final arbiter",
+    "decision under uncertainty",
+    "ideological fixation",
+    "institutional certainty",
+    "closure risk",
+    "exception re-entry",
+    "dogmatism risk"
+  ],
+  "do_not_use_as": [
+    "truth-conditional epistemology",
+    "psychological diagnosis",
+    "automatic anti-belief critique",
+    "closure justification"
+  ],
+  "related_modules": [
+    "SDeltaPhi-20",
+    "SDeltaPhi-21",
+    "SDeltaPhi-28",
+    "SDeltaPhi-29",
+    "SDeltaPhi-32",
+    "SDeltaPhi-39",
+    "SDeltaPhi-57",
+    "SDeltaPhi-63"
+  ]
+}

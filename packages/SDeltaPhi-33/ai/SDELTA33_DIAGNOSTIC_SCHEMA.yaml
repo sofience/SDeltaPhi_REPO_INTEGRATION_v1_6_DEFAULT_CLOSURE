@@ -1,0 +1,41 @@
+diagnostic_name: SDeltaPhi_33_Belief_Conviction_Certainty
+core_question: What kind of path fixation is operating under absent arbitration?
+inputs:
+  arbitration_availability:
+    symbol: A
+    description: Whether a reliable final arbiter or decisive external agreement is
+      available.
+  path:
+    symbol: P
+    description: The current operational path, stance, policy, or transition rule.
+  fixation_strength:
+    symbol: F
+    description: How strongly the path resists revision.
+  reentry_intensity:
+    symbol: R
+    description: Frequency or weight of trace re-entry reinforcing the path.
+  authority_weight:
+    symbol: W_a
+    description: Institutional, internal, or symbolic authority assigned to the path.
+  exception_reentry_cost:
+    symbol: E_r
+    description: Cost required to reopen and incorporate exceptions.
+diagnostic_steps:
+- step: arbitration_check
+  question: Is final arbitration unavailable or too costly?
+- step: belief_check
+  question: Is a minimal fixation being used to prevent dispersal?
+- step: conviction_check
+  question: Has repeated re-entry thickened the fixation into a directional axis?
+- step: certainty_check
+  question: Has authority weight raised exception re-entry cost?
+- step: editability_check
+  question: Can exceptions still re-enter without collapse or closure?
+outputs:
+- fixation_layer
+- persistence_function
+- directionality_strength
+- closure_risk
+- exception_reentry_status
+- recommended_interpretation
+- misuse_warnings
