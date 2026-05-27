@@ -1,0 +1,19 @@
+related_identifiers:
+- identifier: 10.5281/zenodo.18823396
+  relation: references
+  description: SΔϕ-28 Default Power as Low-Cost Path Assignment.
+- identifier: 10.5281/zenodo.18823648
+  relation: references
+  description: SΔϕ-29 Editable Default.
+- identifier: 10.5281/zenodo.18827253
+  relation: references
+  description: SΔϕ-32 Legitimate Intervention.
+- identifier: 10.5281/zenodo.20116959
+  relation: references
+  description: Preferred SΔϕ TCC reference for transition-cost interpretation.
+- identifier: 10.5281/zenodo.20359875
+  relation: references
+  description: SΔϕ-68 Intelligence Is Not Air for cost-theater context.
+- identifier: 10.5281/zenodo.20375357
+  relation: references
+  description: SΔϕ-69 Reversibility as Overwrite for rollback/overwrite distinctions.

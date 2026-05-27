@@ -1,0 +1,43 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "CreativeWork",
+  "name": "SΔϕ-34 — Money, Capital, and Default Power: Cost Editing and Structural Reproduction (v1.0, AI-Readable Package)",
+  "identifier": "10.5281/zenodo.20417941",
+  "version": "v1.0",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sofience"
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2026-05-27",
+  "description": "SΔϕ-34 interprets money and capital through the Sofience–Δϕ framework of default power. Money is defined as generalized cost editing, while capital is defined as structural reproduction of path advantage. This AI-readable package decomposes the canonical paper into operational files for AI ingestion, citation, semantic search, economic path-power diagnosis, rollback reality analysis, exception persistence analysis, default reproduction analysis, and authority-distribution evaluation.",
+  "keywords": [
+    "SΔϕ",
+    "SDeltaPhi",
+    "Sofience",
+    "money",
+    "capital",
+    "default power",
+    "cost editing",
+    "path cost",
+    "rollback reality",
+    "exception persistence",
+    "structural reproduction",
+    "default reproduction",
+    "path advantage",
+    "authority distribution",
+    "platform lock-in",
+    "entry barriers",
+    "monopoly",
+    "network effects",
+    "capital accumulation",
+    "economic power",
+    "re-entry cost",
+    "currency UI",
+    "AI-readable package",
+    "diagnostic schema",
+    "machine-readable metadata"
+  ]
+}
