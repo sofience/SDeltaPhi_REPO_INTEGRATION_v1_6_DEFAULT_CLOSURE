@@ -1,0 +1,42 @@
+{
+  "Cost Attribution Redesign": [
+    "Low-Cost Transition",
+    "Asymmetric Cost Burden",
+    "TCC Relativity",
+    "AI Inclusion Condition",
+    "Binding Fiction Requirement",
+    "Editing Fiction Requirement"
+  ],
+  "Low-Cost Transition": [
+    "not equivalent to cost externalization",
+    "requires total TCC accounting"
+  ],
+  "Asymmetric Cost Burden": [
+    "benefit-bearing actor",
+    "cost-bearing actor",
+    "verification cost",
+    "repair cost",
+    "rollback cost",
+    "re-entry cost",
+    "residual risk"
+  ],
+  "TCC Relativity": [
+    "Human_TCC != AI_TCC",
+    "Hybrid_TCC",
+    "Verification_TCC",
+    "Repair_TCC"
+  ],
+  "AI Inclusion Condition": [
+    "unsettled subjecthood is not audit exemption"
+  ],
+  "Binding Fiction Requirement": [
+    "shared coordinate",
+    "repeatability",
+    "habitability"
+  ],
+  "Editing Fiction Requirement": [
+    "exception re-entry",
+    "misuse correction",
+    "anti-doctrine safeguard"
+  ]
+}

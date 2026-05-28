@@ -1,0 +1,8 @@
+principle: TCC is actor-relative and system-relative.
+rules:
+- Human_TCC(task) != AI_TCC(task)
+- human-easy is not AI-easy
+- AI-easy is not human-easy
+- total TCC includes execution, verification, repair, application, residual risk
+formula: Total_TCC = AI_Execution_TCC + Human_Verification_TCC + Repair_TCC + Application_TCC
+  + Residual_Risk_TCC

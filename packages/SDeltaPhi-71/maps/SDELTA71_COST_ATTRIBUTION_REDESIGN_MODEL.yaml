@@ -1,0 +1,12 @@
+definition: Redesign of transition, verification, repair, rollback, re-entry, persistence,
+  and residual-risk burdens to prevent low-cost operation from being achieved through
+  asymmetric burden transfer.
+primary_goal: low-cost transition without hidden externalized cost
+core_principle: Low-Cost Redesign != Cost Externalization
+required_checks:
+- benefit-bearing actor
+- cost-bearing actor
+- human/AI/hybrid TCC
+- verification and repair cost
+- Binding Fiction
+- Editing Fiction

@@ -1,0 +1,15 @@
+matrix_dimensions:
+- benefit_bearing_actor
+- cost_bearing_actor
+- visible_cost
+- hidden_cost
+- rollback_cost
+- reentry_cost
+- repair_cost
+- residual_risk
+common_patterns:
+- user convenience vs worker burden
+- AI output speed vs human verification
+- tax nominal equality vs TCC inequality
+- legal public burden vs individual re-entry cost
+- platform efficiency vs creator/seller dependence

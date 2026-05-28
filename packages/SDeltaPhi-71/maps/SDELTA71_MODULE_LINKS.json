@@ -1,0 +1,38 @@
+{
+  "SDeltaPhi-34": {
+    "relation": "economic default power",
+    "role": "money edits path cost; capital reproduces path advantage"
+  },
+  "SDeltaPhi-56": {
+    "relation": "TCC base",
+    "role": "measures transition completion cost"
+  },
+  "SDeltaPhi-58": {
+    "relation": "predecessor diagnostic",
+    "role": "cost attribution symmetry index"
+  },
+  "SDeltaPhi-60": {
+    "relation": "subject splitting",
+    "role": "benefit subject / cost subject separation"
+  },
+  "SDeltaPhi-65": {
+    "relation": "externalized restabilization cost",
+    "role": "slop as shifted verification/repair burden"
+  },
+  "SDeltaPhi-66": {
+    "relation": "delegation cost",
+    "role": "human intervention and AI delegation cost"
+  },
+  "SDeltaPhi-68": {
+    "relation": "cost theater",
+    "role": "access/competence appearance vs actual cost"
+  },
+  "SDeltaPhi-69": {
+    "relation": "overwrite/restoration",
+    "role": "restoration and non-occurrence distinction"
+  },
+  "SDeltaPhi-70": {
+    "relation": "World-Binding",
+    "role": "Binding Fiction and Editing Fiction requirements"
+  }
+}
