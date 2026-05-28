@@ -1,0 +1,36 @@
+{
+  "references": [
+    {
+      "module": "SDeltaPhi-01",
+      "role": "Delta-phi minimal core and transition coordinates"
+    },
+    {
+      "module": "SDeltaPhi-03",
+      "role": "Irreversibility and closure relevance"
+    },
+    {
+      "module": "SDeltaPhi-04",
+      "role": "AI subjectivity conditions; distinguish from AGI closure"
+    },
+    {
+      "module": "SDeltaPhi-05",
+      "role": "Agency as recursive transition law update"
+    },
+    {
+      "module": "SDeltaPhi-39",
+      "role": "World-binding and hallucination failure"
+    },
+    {
+      "module": "SDeltaPhi-56",
+      "role": "TCC and transition cost evaluation"
+    },
+    {
+      "module": "SDeltaPhi-62",
+      "role": "World Model Kernel"
+    },
+    {
+      "module": "SDeltaPhi-71",
+      "role": "Cost attribution redesign for governance implications"
+    }
+  ]
+}

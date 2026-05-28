@@ -1,0 +1,6 @@
+closed: Condition remains stable under heterogeneous stress, recursive demand, and
+  environmental constraint.
+partial: Condition appears strong in some contexts but fails or weakens under stress
+  or longer horizon.
+open: Condition does not yet persist across the necessary variation and demand.
+unknown: Evidence is insufficient, non-public, stale, or not criterion-specific.

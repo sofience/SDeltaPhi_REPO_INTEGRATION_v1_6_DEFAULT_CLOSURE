@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "AGI",
+      "type": "label",
+      "description": "Not granted by impression; legitimacy depends on closure."
+    },
+    {
+      "id": "closure",
+      "type": "judgment",
+      "description": "Stabilization of an operational condition under task variation, recursive update, and environmental demand."
+    },
+    {
+      "id": "global_generality",
+      "type": "criterion"
+    },
+    {
+      "id": "long_horizon_recursive_agency",
+      "type": "criterion"
+    },
+    {
+      "id": "world_model_correspondence",
+      "type": "criterion"
+    },
+    {
+      "id": "self_updating_robustness",
+      "type": "criterion"
+    },
+    {
+      "id": "creative_path_generation",
+      "type": "criterion"
+    },
+    {
+      "id": "capability",
+      "type": "surface",
+      "description": "Peak competence or visible performance; not equivalent to closure."
+    }
+  ],
+  "edges": [
+    {
+      "from": "AGI",
+      "to": "closure",
+      "relation": "is_judged_by"
+    },
+    {
+      "from": "closure",
+      "to": "global_generality",
+      "relation": "requires_minimal_condition"
+    },
+    {
+      "from": "closure",
+      "to": "long_horizon_recursive_agency",
+      "relation": "requires_minimal_condition"
+    },
+    {
+      "from": "closure",
+      "to": "world_model_correspondence",
+      "relation": "requires_minimal_condition"
+    },
+    {
+      "from": "closure",
+      "to": "self_updating_robustness",
+      "relation": "requires_minimal_condition"
+    },
+    {
+      "from": "closure",
+      "to": "creative_path_generation",
+      "relation": "requires_minimal_condition"
+    },
+    {
+      "from": "capability",
+      "to": "closure",
+      "relation": "must_not_be_collapsed_into"
+    }
+  ]
+}

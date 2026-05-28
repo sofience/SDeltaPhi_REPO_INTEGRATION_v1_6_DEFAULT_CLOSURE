@@ -1,0 +1,21 @@
+closure_matrix:
+  global_generality:
+    closure_function: breadth stability
+    open_failure: jagged collapse
+    key_question: Can the system remain competent across heterogeneous domains?
+  long_horizon_recursive_agency:
+    closure_function: temporal persistence
+    open_failure: short-horizon breakdown
+    key_question: Can the system sustain coherent goals across extended sequences?
+  world_model_correspondence:
+    closure_function: external constraint alignment
+    open_failure: world-model divergence
+    key_question: Does internal structure remain aligned with external reality?
+  self_updating_robustness:
+    closure_function: adaptive structural preservation
+    open_failure: update degradation or rigid non-adaptation
+    key_question: Can the system update without self-damage?
+  creative_path_generation:
+    closure_function: new path formation and fixation
+    open_failure: derivative novelty
+    key_question: Can the system generate, validate, and stabilize reusable new paths?
