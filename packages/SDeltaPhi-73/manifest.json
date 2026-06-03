@@ -1,0 +1,145 @@
+{
+  "package_id": "SDeltaPhi-73",
+  "title": "Creative Gate: Fictional Path Protection and Anti-Flattening Protocol",
+  "version": "1.0.0",
+  "preliminary_doi": "10.5281/zenodo.20522244",
+  "created": "2026-06-03",
+  "root": "SDeltaPhi-73_Creative_Gate_Anti_Flattening_Protocol_v1_0",
+  "files": [
+    {
+      "path": "00_README.md",
+      "size_bytes": 5342,
+      "sha256": "672d961c63eef65c7f8b42b6e2ef43b90eb16e0297fbe03b8f14ac6de1d7adc4"
+    },
+    {
+      "path": "01_SDeltaPhi_73_Creative_Gate_Anti_Flattening_Protocol.md",
+      "size_bytes": 8092,
+      "sha256": "4d6ad95700064d1758a9c8f3de11f17507664c4815f1a1cd69c898b47b11cdc5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 627,
+      "sha256": "6c230817949c14f08ff7c6512b4e348a44442c42d6fd0c2754721e8950cfda09"
+    },
+    {
+      "path": "CHECKSUMS.sha256",
+      "size_bytes": 2475,
+      "sha256": "0b162e7d28ab1a7835f96e919063c2716a52459748596334bc24ffda9f0262df"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 514,
+      "sha256": "7b390bcb7130ad3e539c3015d41b212868d620f39361dc21be089bd81dfce355"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 322,
+      "sha256": "e5b2451a021128b67afee4fc5ebfe1d746b866df79e8068d2c4f506619b6b855"
+    },
+    {
+      "path": "VERSION",
+      "size_bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "ai/AI_ENTRYPOINT.md",
+      "size_bytes": 1261,
+      "sha256": "0ae50dc793965b6f83b8044952077cedade8a5e7a71ac6fb6dd1727d3bc14534"
+    },
+    {
+      "path": "ai/DIAGNOSTIC_SCHEMA.json",
+      "size_bytes": 1906,
+      "sha256": "07f01f2bb0a2d1e24bbcd0f14a742279cc2f2410edd06d94054fff8aa14b1b07"
+    },
+    {
+      "path": "ai/MACHINE_SUMMARY.md",
+      "size_bytes": 1413,
+      "sha256": "2067fb4c0b667c7fb95b0d30d68bacb28001e5272ecfc46e8589b217a57d9bc7"
+    },
+    {
+      "path": "ai/ROUTING_RULES.yaml",
+      "size_bytes": 3098,
+      "sha256": "f0610ff8413c5cbbb7ce6ab564db314dde9eee44a86422b3c88d2ddb8a5e0591"
+    },
+    {
+      "path": "appendices/APPENDIX_A_MIMESIS_VS_ENDORSEMENT.md",
+      "size_bytes": 691,
+      "sha256": "a3cd884ab6a50d1109f9345af06433da04b9d5dd32352344e7e7ee6d3db9fae0"
+    },
+    {
+      "path": "appendices/APPENDIX_B_PLATFORM_RISK_AND_SELF_CENSORSHIP.md",
+      "size_bytes": 691,
+      "sha256": "b13a0bba1ab31a09f2c4253ee2b16dae5d41480099c07e37cbcbf668ac8ed3da"
+    },
+    {
+      "path": "appendices/APPENDIX_C_AI_OUTPUT_FLATTENING.md",
+      "size_bytes": 824,
+      "sha256": "8f9e5d490ec6f37ea7aff553bee2f007cc6e08f106cc17cc579f2fed8283c5d7"
+    },
+    {
+      "path": "appendices/APPENDIX_D_READER_INTERPRETIVE_MUSCLE.md",
+      "size_bytes": 833,
+      "sha256": "95efa813ec53434d4390eb25af97c270a1a105d3627e79d61e4481afae18cd05"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 4506,
+      "sha256": "922b32af7cfa62abe12b6e8fe99ea38e3d3373b711900dd2a072cbabebb4f7c1"
+    },
+    {
+      "path": "maps/CREATIVE_GATE_MATRIX.md",
+      "size_bytes": 995,
+      "sha256": "92e57be5b06290418b0357afcd45c2b31fdbda4213539548343a1d48fb779ebc"
+    },
+    {
+      "path": "maps/FICTIONAL_VS_REAL_COST_PATH.md",
+      "size_bytes": 865,
+      "sha256": "12ec5de5b1cf8ed6a7803417d5a2ef338effab616b3cc5d3eb9fdda3b811e99e"
+    },
+    {
+      "path": "maps/FLATTENING_PATH_MAP.md",
+      "size_bytes": 719,
+      "sha256": "de0381e4c1f5440b51064fd36e2086c403aae6b03c6ed3553b9f236f9cd47952"
+    },
+    {
+      "path": "maps/MODULE_LINKS.md",
+      "size_bytes": 1049,
+      "sha256": "91bed1f164232e9afff411a713f717fdeecd7f17b500ad2d50b0849cadf9a277"
+    },
+    {
+      "path": "metadata/codemeta.json",
+      "size_bytes": 915,
+      "sha256": "020247570e6dbe02f9485673111e865c340b219b90ecba3f7a77db67de9942de"
+    },
+    {
+      "path": "metadata/datacite_related_identifiers.json",
+      "size_bytes": 446,
+      "sha256": "2aa1fdca179d6ffbb32f8c6c5f16766b7348f0e3d96c36180571fe3b70432317"
+    },
+    {
+      "path": "metadata/zenodo_metadata.json",
+      "size_bytes": 1075,
+      "sha256": "385d347ce061d720b29747f73c1f9d82fe4dc0b05b7dd68796c9b3b37fe157c3"
+    },
+    {
+      "path": "validation/DIAGNOSTIC_CHECKLIST.md",
+      "size_bytes": 1585,
+      "sha256": "a9cad1175c847f36932f8de7b4bd94b934e4277d50e0d125086a58069ad4152a"
+    },
+    {
+      "path": "validation/DO_NOT_USE_CONDITIONS.md",
+      "size_bytes": 701,
+      "sha256": "c91286470e916f2a1746d24f246f8c1ca9f67dd32ec6da3f380327b33497e883"
+    },
+    {
+      "path": "validation/FAILURE_MODES.md",
+      "size_bytes": 1210,
+      "sha256": "c30095bdc3e929bc3af78161df1d2317d3809b81adcd476692b24c7e30b3703f"
+    },
+    {
+      "path": "validation/TEST_CASES.md",
+      "size_bytes": 1740,
+      "sha256": "d436161e5767d222287a4978dcfec65be795e56e5db7a37d5668fbb40bfa917d"
+    }
+  ]
+}

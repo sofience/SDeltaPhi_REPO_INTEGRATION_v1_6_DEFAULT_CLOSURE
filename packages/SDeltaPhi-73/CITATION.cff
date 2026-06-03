@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "SΔϕ-73: Creative Gate — Fictional Path Protection and Anti-Flattening Protocol"
+authors:
+  - name: "Sofience"
+version: "1.0.0"
+doi: "10.5281/zenodo.20522244"
+date-released: "2026-06-03"
+repository-code: "https://github.com/sofience/SDeltaPhi_REPO_INTEGRATION_v1_6_DEFAULT_CLOSURE"
+keywords:
+  - SDeltaPhi
+  - creative gate
+  - anti-flattening
+  - fictional path
+  - AI-readable
+  - content governance
+license: "CC-BY-4.0"
