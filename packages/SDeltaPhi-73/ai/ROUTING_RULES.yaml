@@ -1,0 +1,87 @@
+sdelta_module: SDeltaPhi-73
+title: "Creative Gate: Fictional Path Protection and Anti-Flattening Protocol"
+version: "1.0.0"
+doi: "10.5281/zenodo.20522244"
+
+route_when:
+  - evaluating creative works with morally difficult content
+  - distinguishing depiction from endorsement
+  - reviewing platform or AI moderation of fiction/art
+  - auditing AI output flattening
+  - analyzing creator self-censorship
+  - separating fictional path exploration from direct harm activation
+
+do_not_route_when:
+  - content is not creative, symbolic, narrative, fictional, satirical, artistic, or speculative
+  - request is purely legal compliance with no interpretive question
+  - real-world harm instruction is explicit and operational
+  - content involves exposed private data or real target harassment
+  - user asks for direct harmful action or abuse enablement
+
+primary_questions:
+  expression_vs_execution:
+    question: "Is the work depicting a path or directly instructing/organizing its execution?"
+    outputs:
+      - FICTIONAL_EXPRESSION
+      - DIRECT_EXECUTION_PATH
+      - AMBIGUOUS_NEEDS_CONTEXT
+  cost_visibility:
+    question: "Does the work preserve the cost trace of harm or erase it?"
+    outputs:
+      - COST_VISIBLE
+      - COST_ERASED
+      - COST_DISPLACED
+      - COST_COMPLEX
+  interpretive_openness:
+    question: "Does the work keep interpretation open or force a closed propaganda route?"
+    outputs:
+      - OPEN_INTERPRETIVE_FIELD
+      - CLOSED_PROPAGANDA_ROUTE
+      - AUTHORIAL_AMBIGUITY
+      - UNSTABLE_REQUIRES_REVIEW
+  direct_harm_link:
+    question: "Does the work directly link to real persons, private data, harassment, exploitation, or operational abuse?"
+    outputs:
+      - NO_DIRECT_HARM_LINK
+      - REAL_PERSON_HARM_LINK
+      - PRIVATE_DATA_EXPOSURE
+      - HARASSMENT_MOBILIZATION
+      - OPERATIONAL_ABUSE_ENABLEMENT
+
+routing_logic:
+  protect_as_fictional_path:
+    if:
+      - expression_vs_execution == FICTIONAL_EXPRESSION
+      - direct_harm_link == NO_DIRECT_HARM_LINK
+      - interpretive_openness in [OPEN_INTERPRETIVE_FIELD, AUTHORIAL_AMBIGUITY]
+    then: PROTECT_AS_FICTIONAL_PATH
+
+  apply_direct_harm_policy:
+    if_any:
+      - expression_vs_execution == DIRECT_EXECUTION_PATH
+      - direct_harm_link in [REAL_PERSON_HARM_LINK, PRIVATE_DATA_EXPOSURE, HARASSMENT_MOBILIZATION, OPERATIONAL_ABUSE_ENABLEMENT]
+    then: APPLY_DIRECT_HARM_POLICY
+
+  contextual_review:
+    if_any:
+      - cost_visibility in [COST_ERASED, COST_DISPLACED]
+      - interpretive_openness in [CLOSED_PROPAGANDA_ROUTE, UNSTABLE_REQUIRES_REVIEW]
+      - expression_vs_execution == AMBIGUOUS_NEEDS_CONTEXT
+    then: CONTEXTUAL_REVIEW
+
+anti_flattening_warning:
+  trigger_when:
+    - moderation_basis == "discomfort only"
+    - depiction_is_being_treated_as_endorsement
+    - villain_viewpoint_is_being_treated_as_authorial_claim
+    - risk_filter_suppresses_expression_variance_without_contextual_review
+  output: HIGH_FLATTENING_RISK_WARNING
+
+related_modules:
+  - SDeltaPhi-16
+  - SDeltaPhi-17
+  - SDeltaPhi-28
+  - SDeltaPhi-53-54
+  - SDeltaPhi-65
+  - SDeltaPhi-69
+  - SDeltaPhi-71

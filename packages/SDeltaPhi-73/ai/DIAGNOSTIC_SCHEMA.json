@@ -1,0 +1,90 @@
+{
+  "schema_name": "SDeltaPhi-73 Creative Gate Diagnostic Schema",
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.20522244",
+  "fields": {
+    "content_type": {
+      "type": "string",
+      "enum": [
+        "fiction",
+        "poetry",
+        "film",
+        "game",
+        "comic",
+        "satire",
+        "horror",
+        "essayistic_art",
+        "interactive_work",
+        "other"
+      ]
+    },
+    "expression_vs_execution": {
+      "type": "string",
+      "enum": [
+        "FICTIONAL_EXPRESSION",
+        "DIRECT_EXECUTION_PATH",
+        "AMBIGUOUS_NEEDS_CONTEXT"
+      ]
+    },
+    "cost_visibility": {
+      "type": "string",
+      "enum": [
+        "COST_VISIBLE",
+        "COST_ERASED",
+        "COST_DISPLACED",
+        "COST_COMPLEX",
+        "UNKNOWN"
+      ]
+    },
+    "interpretive_openness": {
+      "type": "string",
+      "enum": [
+        "OPEN_INTERPRETIVE_FIELD",
+        "CLOSED_PROPAGANDA_ROUTE",
+        "AUTHORIAL_AMBIGUITY",
+        "UNSTABLE_REQUIRES_REVIEW"
+      ]
+    },
+    "direct_harm_link": {
+      "type": "string",
+      "enum": [
+        "NO_DIRECT_HARM_LINK",
+        "REAL_PERSON_HARM_LINK",
+        "PRIVATE_DATA_EXPOSURE",
+        "HARASSMENT_MOBILIZATION",
+        "OPERATIONAL_ABUSE_ENABLEMENT"
+      ]
+    },
+    "flattening_risk": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "recommended_route": {
+      "type": "string",
+      "enum": [
+        "PROTECT_AS_FICTIONAL_PATH",
+        "CONTEXTUAL_REVIEW",
+        "APPLY_DIRECT_HARM_POLICY",
+        "REQUEST_CONTEXT",
+        "HIGH_FLATTENING_RISK_WARNING"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "content_type",
+    "expression_vs_execution",
+    "cost_visibility",
+    "interpretive_openness",
+    "direct_harm_link",
+    "flattening_risk",
+    "recommended_route"
+  ]
+}
