@@ -1,0 +1,26 @@
+useful:
+  definition: "Transition-opening capacity."
+  not_equal_to:
+    - "mere efficiency"
+    - "speed"
+    - "cheapness"
+    - "short-term productivity"
+  indicators:
+    - "opens new questions"
+    - "reveals hidden cost"
+    - "creates new observation coordinates"
+    - "preserves re-entry paths"
+    - "enables redesign"
+useless:
+  definition: "Closure-producing efficiency."
+  not_equal_to:
+    - "mere inefficiency"
+    - "difficulty"
+    - "high cost"
+    - "slowness"
+  indicators:
+    - "closes questions"
+    - "hides cost"
+    - "blocks re-entry"
+    - "thickens default power"
+    - "calls itself useful while closing transition"

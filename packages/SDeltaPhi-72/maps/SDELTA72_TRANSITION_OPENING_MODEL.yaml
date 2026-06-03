@@ -1,0 +1,10 @@
+transition_opening_model:
+  trigger: "A structure reveals a hidden cost or creates a new judgment axis."
+  outputs:
+    - "new question"
+    - "new observation coordinate"
+    - "cost visibility"
+    - "re-entry path"
+    - "redesign possibility"
+  classification: "useful"
+  caution: "High cost alone does not prove usefulness."

@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "useful",
+      "label": "Useful",
+      "definition": "Transition-opening capacity"
+    },
+    {
+      "id": "useless",
+      "label": "Useless",
+      "definition": "Closure-producing efficiency"
+    },
+    {
+      "id": "efficiency",
+      "label": "Efficiency",
+      "definition": "Visible cost reduction that requires audit"
+    },
+    {
+      "id": "default_power",
+      "label": "Default Power",
+      "definition": "Accumulated low-cost path assignment and authority"
+    },
+    {
+      "id": "habitation",
+      "label": "Accumulated Habitation",
+      "definition": "Number and thickness of actors living inside a default"
+    },
+    {
+      "id": "reentry",
+      "label": "Re-entry",
+      "definition": "Ability for alternatives to return without prohibitive cost"
+    }
+  ],
+  "edges": [
+    {
+      "from": "useful",
+      "to": "reentry",
+      "relation": "preserves_or_creates"
+    },
+    {
+      "from": "useless",
+      "to": "reentry",
+      "relation": "blocks_or_prices_out"
+    },
+    {
+      "from": "efficiency",
+      "to": "useless",
+      "relation": "can_become_when_closure_producing"
+    },
+    {
+      "from": "default_power",
+      "to": "habitation",
+      "relation": "thickens_through"
+    },
+    {
+      "from": "useful",
+      "to": "default_power",
+      "relation": "opens_new_judgment_axis_against"
+    }
+  ]
+}

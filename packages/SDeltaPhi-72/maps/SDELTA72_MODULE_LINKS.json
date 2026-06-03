@@ -1,0 +1,44 @@
+{
+  "references": [
+    {
+      "module": "SDeltaPhi-01",
+      "doi": "10.5281/zenodo.18730265",
+      "relation": "minimal core and phase-change formalism"
+    },
+    {
+      "module": "SDeltaPhi-03",
+      "doi": "10.5281/zenodo.18730448",
+      "relation": "irreversibility"
+    },
+    {
+      "module": "SDeltaPhi-28",
+      "doi": "10.5281/zenodo.18823396",
+      "relation": "default power"
+    },
+    {
+      "module": "SDeltaPhi-34",
+      "doi": "10.5281/zenodo.20417941",
+      "relation": "money, capital, and default power"
+    },
+    {
+      "module": "SDeltaPhi-56",
+      "doi": "10.5281/zenodo.20116959",
+      "relation": "Transition Completion Cost"
+    },
+    {
+      "module": "SDeltaPhi-65",
+      "doi": "10.5281/zenodo.20127428",
+      "relation": "slop as externalized restabilization cost"
+    },
+    {
+      "module": "SDeltaPhi-70",
+      "doi": "10.5281/zenodo.20391619",
+      "relation": "fictional habitation"
+    },
+    {
+      "module": "SDeltaPhi-71",
+      "doi": "10.5281/zenodo.20420270",
+      "relation": "cost attribution redesign"
+    }
+  ]
+}

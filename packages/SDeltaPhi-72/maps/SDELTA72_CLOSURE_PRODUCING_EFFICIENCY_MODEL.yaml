@@ -1,0 +1,9 @@
+closure_producing_efficiency_model:
+  trigger: "A structure is labeled efficient, practical, realistic, orthodox, safe, or useful."
+  hidden_mechanism:
+    - "visible friction is lowered"
+    - "alternative questions become harder to ask"
+    - "re-entry costs rise"
+    - "hidden cost becomes less visible"
+  classification: "useless if closure dominates transition-opening capacity"
+  caution: "Efficiency alone is not useless; closure-producing efficiency is."
