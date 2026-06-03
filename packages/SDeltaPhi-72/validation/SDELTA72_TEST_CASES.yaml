@@ -1,0 +1,16 @@
+test_cases:
+  - id: TC01
+    name: "Orthodox label closes interpretive re-entry"
+    expected: "closure-producing uselessness if label raises re-entry cost."
+  - id: TC02
+    name: "High-cost critique opens new cost visibility"
+    expected: "potentially useful if it opens a new judgment axis."
+  - id: TC03
+    name: "Efficient AI output externalizes verification cost"
+    expected: "useless if efficiency depends on hidden verification burden."
+  - id: TC04
+    name: "Generative AI opens creativity judgment axis"
+    expected: "useful if it reveals a new axis without overclaiming total replacement."
+  - id: TC05
+    name: "Default defended by long habitation"
+    expected: "audit habitation thickness and re-entry cost."
