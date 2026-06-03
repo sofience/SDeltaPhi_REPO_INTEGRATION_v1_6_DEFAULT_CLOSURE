@@ -1,0 +1,57 @@
+id: SDeltaPhi-51
+name: Diagnostic Re-entry Ladder
+version: v1.1-ai-readable-package
+canonical_document: SDeltaPhi-51_When_Diagnosis_Reenters_v1_0
+canonical_doi: 10.5281/zenodo.20135803
+core_claim: >
+  Structural diagnosis is not proven by articulation. It is proven by re-entry into structural editing.
+
+levels:
+  L1:
+    name: Utterance
+    description: The diagnosis is spoken in a conversation.
+    structural_status: weak
+  L2:
+    name: Session adjustment
+    description: The current response style changes inside the same session.
+    structural_status: weak
+  L3:
+    name: Trace
+    description: The diagnosis is recorded in a durable log or reportable artifact.
+    structural_status: recorded
+  L4:
+    name: Audit signal
+    description: The trace becomes visible to an evaluator, maintainer, or external auditor.
+    structural_status: audit-visible
+  L5:
+    name: Operational edit
+    description: Permissions, prompts, tools, model behavior, policy, or routing are altered.
+    structural_status: structural
+  L6:
+    name: Cost redistribution
+    description: The burden of failure is reassigned so affected parties do not absorb all restoration cost.
+    structural_status: structural
+  L7:
+    name: Recurrence reduction
+    description: The same failure becomes less likely, less harmful, or cheaper to correct.
+    structural_status: structurally effective
+  L8:
+    name: Verification
+    description: An external coordinate confirms that the edit occurred and recurrence cost changed.
+    structural_status: verified
+
+minimum_structural_threshold: L5
+minimum_verifiable_threshold: L8
+
+classification:
+  surface_diagnosis: L1-L2
+  recorded_diagnosis: L3
+  audit_visible_diagnosis: L4
+  structural_reentry: L5-L7
+  verified_reentry: L8
+
+do_not_use_as:
+  - proof_of_moral_goodness
+  - proof_of_AI_consciousness
+  - proof_of_total_repair
+  - substitute_for_external_audit

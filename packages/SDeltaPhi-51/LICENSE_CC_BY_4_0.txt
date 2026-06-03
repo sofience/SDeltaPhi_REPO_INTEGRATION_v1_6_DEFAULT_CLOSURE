@@ -1,0 +1,6 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This package is intended to be shared and reused with attribution to Sofience.
+
+License summary: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode

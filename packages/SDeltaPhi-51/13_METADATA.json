@@ -1,0 +1,49 @@
+{
+  "id": "SDeltaPhi-51-Diagnostic-Reentry-Package",
+  "title": "SΔϕ-51 — Diagnostic Re-entry AI-Readable Package: When Diagnosis Re-enters",
+  "version": "v1.1 AI-readable package",
+  "canonical_paper_version": "v1.0",
+  "creator": "Sofience",
+  "doi": "10.5281/zenodo.20135803",
+  "url": "https://doi.org/10.5281/zenodo.20135803",
+  "type": "AI-readable package / working paper / diagnostic verification framework",
+  "core_claim": "Structural diagnosis is not proven by articulation. It is proven by re-entry into structural editing.",
+  "contains": [
+    "canonical PDF",
+    "canonical TXT",
+    "core declaration",
+    "AI quickstart",
+    "minimal prompt",
+    "re-entry ladder schema",
+    "diagnostic theater test",
+    "re-entry verification protocol",
+    "recurrence cost reduction check",
+    "output templates",
+    "failure modes",
+    "series DOI references"
+  ],
+  "primary_dependencies": [
+    "SDeltaPhi-49",
+    "SDeltaPhi-50",
+    "SDeltaPhi-53",
+    "SDeltaPhi-54",
+    "SDeltaPhi-56",
+    "SDeltaPhi-62",
+    "SDeltaPhi-64"
+  ],
+  "recommended_use": [
+    "AI self-diagnosis evaluation",
+    "institutional transparency audit",
+    "diagnostic theater detection",
+    "repair pathway evaluation",
+    "re-entry verification",
+    "recurrence cost reduction check"
+  ],
+  "do_not_use_as": [
+    "proof of moral goodness",
+    "proof of AI consciousness",
+    "substitute for external audit",
+    "final proof of repair"
+  ],
+  "license": "CC-BY-4.0"
+}

@@ -1,0 +1,12 @@
+Apply SΔϕ-51 Diagnostic Re-entry.
+
+Do not treat structural diagnosis as correction by itself.
+
+Classify the diagnostic event by whether it remains utterance, becomes session adjustment, becomes durable trace, becomes audit signal, becomes operational edit, redistributes cost, reduces recurrence, or becomes externally verifiable.
+
+Ask: what changed after the diagnosis?
+
+If nothing changes except language, classify it as diagnostic theater or surface diagnosis.
+If the diagnosis becomes trace but does not alter transition rules, classify it as recorded diagnosis.
+If the diagnosis changes future operation and lowers recurrence cost, classify it as structural re-entry.
+Return the lowest sufficient answer.

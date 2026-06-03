@@ -1,0 +1,32 @@
+Title:
+SΔϕ-51 — Diagnostic Re-entry AI-Readable Package: When Diagnosis Re-enters from Structural Speech to Structural Editing (v1.1)
+
+Upload type:
+Publication
+
+Publication type:
+Working paper
+
+Creator:
+Sofience
+
+Version:
+v1.1 AI-readable package
+
+DOI:
+10.5281/zenodo.20135803
+
+Description:
+SΔϕ-51 introduces a diagnostic verification framework within the Sofience-Δϕ Formalism. It argues that structural diagnosis is not proven by being articulated. It is proven only when it re-enters as structural editing: durable trace, audit signal, operational edit, cost redistribution, recurrence reduction, and external verification.
+
+The paper follows SΔϕ-50 by asking whether diagnostic answers actually change anything beyond the surface of conversation. A system may speak fluently about cost, drift, failure, sacred markers, restoration poverty, or editability, yet remain structurally unchanged. Such language may be genuine diagnosis, weak record, performative safety surface, or diagnostic theater.
+
+This AI-readable package decomposes the canonical paper into low-cost operational files: README, core declaration, AI quickstart, minimal prompt, re-entry ladder schema, diagnostic re-entry rubric, diagnostic theater test, re-entry verification protocol, recurrence cost reduction check, output templates, failure modes, relation map, metadata, citation file, DOI references, and manifest.
+
+The package is designed for AI self-diagnosis evaluation, institutional transparency audit, failure report analysis, safety disclosure review, and detection of diagnostic theater. It should not be used as proof of moral goodness, proof of consciousness, substitute for external audit, or final proof of repair.
+
+Keywords:
+SΔϕ; Sofience-DeltaPhi Formalism; Diagnostic Re-entry; Diagnostic Theater; Structural Diagnosis; Structural Editing; AI Governance; AI Safety; Re-entry; Auditability; Recurrence Cost; Failure Reporting; Transparency; Operational Edit; Cost Redistribution; External Verification; UMR; TCC; Revision Path
+
+Suggested citation:
+Sofience. (2026). SΔϕ-51 — Diagnostic Re-entry AI-Readable Package: When Diagnosis Re-enters from Structural Speech to Structural Editing (v1.1). Zenodo. https://doi.org/10.5281/zenodo.20135803
