@@ -1,0 +1,16 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "CreativeWork",
+  "name": "SDeltaPhi-72 - Useful and Useless: Transition-Opening Usefulness and Closure-Producing Efficiency",
+  "version": "v1.0",
+  "identifier": "10.5281/zenodo.20435498",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sofience"
+    }
+  ],
+  "datePublished": "2026-05-29",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "description": "AI-readable package defining useful as transition-opening capacity and useless as closure-producing efficiency within the SDeltaPhi Formalism."
+}

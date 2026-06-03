@@ -1,0 +1,37 @@
+related_identifiers:
+  - identifier: "10.5281/zenodo.18731366"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-00 series overview and conceptual architecture."
+  - identifier: "10.5281/zenodo.18730265"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-01 minimal core and phase-change formalism."
+  - identifier: "10.5281/zenodo.18730448"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-03 irreversibility as the minimal condition of existence."
+  - identifier: "10.5281/zenodo.18823396"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-28 default power as low-cost path assignment."
+  - identifier: "10.5281/zenodo.20417941"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-34 money, capital, and default power."
+  - identifier: "10.5281/zenodo.20116959"
+    relation: References
+    resource_type: Publication
+    description: "Preferred SDeltaPhi TCC reference."
+  - identifier: "10.5281/zenodo.20127428"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-65 slop as externalized restabilization cost."
+  - identifier: "10.5281/zenodo.20391619"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-70 nihility, helplessness, and fictional habitation."
+  - identifier: "10.5281/zenodo.20420270"
+    relation: References
+    resource_type: Publication
+    description: "SDeltaPhi-71 cost attribution redesign."
