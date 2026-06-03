@@ -1,0 +1,41 @@
+diagnostic_name: SDeltaPhi_72_Useful_Useless
+core_question: "Does the structure open transition or close transition while appearing useful?"
+inputs:
+  structure:
+    description: "The concept, institution, practice, artifact, label, technology, theory, or tradition being evaluated."
+  claimed_usefulness:
+    description: "Why the structure is called useful, efficient, practical, realistic, orthodox, safe, or valid."
+  visible_cost_reduction:
+    description: "Which visible costs are lowered."
+  hidden_costs:
+    description: "Costs that may be displaced, externalized, silenced, or made harder to see."
+  opened_questions:
+    description: "Questions newly made possible by the structure."
+  closed_questions:
+    description: "Questions made harder to ask by the structure."
+  reentry_paths:
+    description: "Whether alternative interpretations, exceptions, or non-default paths can re-enter."
+  default_power_context:
+    description: "Existing defaults, authority structures, habitation thickness, and accumulated legitimacy."
+diagnostic_steps:
+  - step: efficiency_claim_check
+    question: "What makes the structure appear useful or efficient?"
+  - step: transition_opening_check
+    question: "What new transition, question, cost visibility, or judgment axis does it open?"
+  - step: closure_check
+    question: "What question, exception, or re-entry path does it close?"
+  - step: cost_visibility_check
+    question: "Whose cost becomes more visible or less visible?"
+  - step: default_power_check
+    question: "Does accumulated habitation make the default harder to question?"
+  - step: classification
+    question: "Is the structure transition-opening useful, closure-producing useless, mixed, or insufficiently evidenced?"
+outputs:
+  - classification
+  - transition_opening_effect
+  - closure_effect
+  - cost_visibility_effect
+  - reentry_status
+  - default_power_thickness
+  - misuse_warnings
+  - recommended_redesign_path

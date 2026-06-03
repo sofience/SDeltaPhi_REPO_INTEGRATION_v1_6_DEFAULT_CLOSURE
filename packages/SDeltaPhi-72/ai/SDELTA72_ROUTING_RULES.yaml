@@ -1,0 +1,15 @@
+routing_rules:
+  use_when:
+    - "A user asks whether something is useful, useless, efficient, practical, realistic, orthodox, or valid."
+    - "A structure appears efficient but may close questions or hide costs."
+    - "A high-cost inquiry may open a new judgment axis."
+    - "Default power is being challenged or defended."
+    - "AI, historical orthodoxy, or institutional labels are being used to close alternatives."
+  avoid_when:
+    - "The user only needs ordinary dictionary definitions of useful/useless."
+    - "No cost, transition, closure, or re-entry analysis is relevant."
+  escalate_to:
+    SDeltaPhi-71: "When usefulness claims involve cost attribution redesign."
+    SDeltaPhi-28: "When default power or low-cost path assignment is central."
+    SDeltaPhi-70: "When Binding Fiction, Editing Fiction, or habitation is central."
+    SDeltaPhi-65: "When apparent efficiency is achieved through slop or externalized restabilization cost."

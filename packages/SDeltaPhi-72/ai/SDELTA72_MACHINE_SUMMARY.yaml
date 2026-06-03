@@ -1,0 +1,19 @@
+id: SDeltaPhi-72
+title: "Useful and Useless: Transition-Opening Usefulness and Closure-Producing Efficiency"
+version: v1.0
+doi: "10.5281/zenodo.20435498"
+core_claim: "Useful is not mere efficiency; useless is not mere inefficiency."
+primary_formula:
+  - "Useful = transition-opening capacity"
+  - "Useless = closure-producing efficiency"
+definitions:
+  useful: "Transition-opening capacity: opens questions, reveals hidden costs, preserves re-entry, creates new judgment axes, and enables redesign."
+  useless: "Closure-producing efficiency: appears efficient, valid, practical, orthodox, or useful while closing questions, hiding costs, and blocking re-entry."
+case_studies:
+  - "Song Si-yeol / Samu-nanjeok as closure-producing orthodoxy"
+  - "Generative AI and the destabilization of the human-only creativity default"
+warnings:
+  - "Do not equate high cost with usefulness."
+  - "Do not equate efficiency with uselessness."
+  - "Do not use useful/useless as moral praise or blame."
+  - "Do not demonize historical individuals when the relevant target is structural closure."
