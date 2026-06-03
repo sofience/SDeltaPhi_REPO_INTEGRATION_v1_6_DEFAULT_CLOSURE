@@ -1,0 +1,38 @@
+{
+  "title": "SΔϕ-73: Creative Gate — Fictional Path Protection and Anti-Flattening Protocol",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "description": "AI-readable SΔϕ package defining a Creative Gate for separating fictional path exploration from direct real-world harm activation, in order to prevent human and AI creative-output flattening under risk-minimizing governance.",
+  "creators": [
+    {
+      "name": "Sofience",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "SDeltaPhi",
+    "SΔϕ",
+    "creative gate",
+    "anti-flattening",
+    "fictional path",
+    "AI-readable",
+    "content governance",
+    "artistic freedom",
+    "mimesis",
+    "AI alignment",
+    "platform moderation",
+    "creative censorship",
+    "fictional path protection"
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.20522244",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20116959",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    }
+  ],
+  "language": "eng"
+}

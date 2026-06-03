@@ -1,0 +1,16 @@
+{
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "10.5281/zenodo.20116959",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "resourceTypeGeneral": "Text"
+    },
+    {
+      "relatedIdentifier": "https://github.com/sofience/SDeltaPhi_REPO_INTEGRATION_v1_6_DEFAULT_CLOSURE",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsSupplementTo",
+      "resourceTypeGeneral": "Software"
+    }
+  ]
+}
