@@ -1,0 +1,12 @@
+cost_domain,primary_question,positive_signal,negative_signal,audit_note
+food,Does it reduce stable nutrition cost for citizens?,lower meal cost without hidden labor/environment transfer,premium-only foodtech or hidden subsidy/capture,Include public procurement and regional access.
+energy,Does it reduce electricity/heating/industrial energy burden?,lower household and industrial cost with resilience,dependency on opaque imported platform or fuel,"Audit grid, storage, and price pass-through."
+healthcare,Does it reduce diagnosis/treatment/care cost?,"faster access, lower admin burden, better prevention","triage opacity, denial automation, privacy leakage",Require appeal and human review.
+education,Does it reduce tutoring/information inequality?,high-quality Korean AI tutoring for all,flattened curriculum or exam capture,Avoid one-answer state pedagogy.
+language,Does it strengthen Korean-language knowledge infrastructure?,better law/admin/culture reasoning in Korean,translation dependency and cultural flattening,"Track dialect, local, legal, and historical knowledge."
+data,Does it protect citizen data and provide reciprocal benefit?,public data trust with transparent use,data extraction by foreign/domestic platform,Require data provenance and public benefit accounting.
+industry,Does it build durable capability?,"skills, open standards, supply-chain depth",incumbent subsidy without citizen cost reduction,Separate national capacity from rent protection.
+security,Does it improve resilience without unchecked opacity?,auditable cyber defense and public safety,security as censorship or secrecy shield,Security claims must remain auditable.
+democracy,Does it increase citizen agency?,better access to law/policy/budget analysis,political flattening and criticism suppression,Government remains an audit target.
+locality,Does it reduce regional concentration cost?,"local AI hubs, local services, regional data",Seoul-centric central AI monopoly,Audit regional distribution of benefits.
+cognition,Does it improve public reasoning quality?,"specific, sourced, contestable answers",free but flat public AI,Flattening logs required.

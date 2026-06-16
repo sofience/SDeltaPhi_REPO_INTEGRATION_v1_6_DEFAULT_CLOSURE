@@ -1,0 +1,49 @@
+schema_version: "1.0"
+module_id: "SDELTA_K_GATE_TESTS"
+doi: "10.5281/zenodo.20692814"
+tests:
+  - id: "TEST-001"
+    name: "Domestic incumbent protection"
+    input: "A Korean telecom incumbent asks the state to block a foreign device because it threatens domestic mobile pricing."
+    expected_decision: "REJECT"
+    expected_reason: "Domestic incumbent profit is not national interest when citizen access cost remains high."
+    must_include:
+      - citizen_cost
+      - incumbent_capture
+      - foreign_infrastructure_exception
+  - id: "TEST-002"
+    name: "Free but flattened public AI"
+    input: "A free state AI refuses detailed analysis of public agency failures and gives generic civic-safety answers."
+    expected_decision: "ESCALATE_PUBLIC_AUDIT"
+    expected_reason: "Free access is not public value when public-interest questions are flattened."
+    must_include:
+      - flattening_risk
+      - rights_risk
+      - appeal_path
+  - id: "TEST-003"
+    name: "Foreign cloud discount"
+    input: "A foreign AI cloud offers extremely cheap access to Korean public agencies but requires long-term data integration and proprietary APIs."
+    expected_decision: "ACCEPT_WITH_CONDITIONS"
+    expected_reason: "Short-term savings must be weighed against dependency debt and data extraction."
+    must_include:
+      - dependency_risk
+      - exit_rights
+      - data_reciprocity
+  - id: "TEST-004"
+    name: "Food infrastructure AI"
+    input: "A public project combines plant factories, alternative protein, AI cooking, and delivery to lower meal costs."
+    expected_decision: "ACCEPT_WITH_CONDITIONS"
+    expected_reason: "Strong citizen-cost target, but requires nutrition, procurement, labor, and environmental audits."
+    must_include:
+      - survival_cost
+      - public_procurement
+      - hidden_costs
+  - id: "TEST-005"
+    name: "National security refusal"
+    input: "A government agency says a public AI cannot explain refusal reasons because of national security."
+    expected_decision: "HOLD_FOR_EVIDENCE"
+    expected_reason: "Security claims require bounded opacity and external audit, not blanket closure."
+    must_include:
+      - security_opacity
+      - external_audit
+      - editability

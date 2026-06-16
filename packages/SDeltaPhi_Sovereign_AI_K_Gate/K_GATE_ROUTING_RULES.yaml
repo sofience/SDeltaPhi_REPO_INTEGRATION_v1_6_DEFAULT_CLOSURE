@@ -1,0 +1,124 @@
+schema_version: "1.0"
+module_id: "SDELTA_K_GATE_ROUTING_RULES"
+parent: "SDELTA_SOVEREIGN_AI_K_GATE"
+doi: "10.5281/zenodo.20692814"
+version: "1.0.0"
+
+triggers:
+  - sovereign_ai_policy
+  - national_ai_strategy
+  - public_ai_service
+  - public_ai_censorship
+  - public_data_infrastructure
+  - foreign_platform_entry
+  - domestic_industry_protection
+  - cloud_or_model_dependency
+  - national_security_ai
+  - korean_language_ai
+  - public_welfare_ai
+  - food_energy_medical_ai_infrastructure
+  - digital_sovereignty_claim
+  - national_interest_claim
+
+route_order:
+  - step: 1
+    name: "identify_claim"
+    instruction: "Extract the national-interest, sovereignty, safety, or public-benefit claim."
+  - step: 2
+    name: "separate_subjects"
+    instruction: "Separate citizen interest from government, regime, party, bureaucracy, security agency, and incumbent corporate interest."
+  - step: 3
+    name: "map_costs"
+    instruction: "List lowered, increased, shifted, hidden, and deferred costs."
+  - step: 4
+    name: "run_k_gate"
+    instruction: "Prioritize long-term costs borne by Korean citizens."
+  - step: 5
+    name: "rights_and_flattening_audit"
+    instruction: "Check whether rights, criticism, or public reasoning are flattened."
+  - step: 6
+    name: "dependency_audit"
+    instruction: "Check domestic and foreign lock-in, platform dependency, and exit rights."
+  - step: 7
+    name: "capture_audit"
+    instruction: "Check state, bureaucratic, party, security, academic, media, or incumbent capture."
+  - step: 8
+    name: "editability_audit"
+    instruction: "Require appeal, rollback, revision, logging, and external audit paths."
+  - step: 9
+    name: "decision"
+    instruction: "Return ACCEPT, ACCEPT_WITH_CONDITIONS, HOLD_FOR_EVIDENCE, REJECT, or ESCALATE_PUBLIC_AUDIT."
+
+mandatory_distinctions:
+  - state_interest_vs_citizen_interest
+  - government_interest_vs_public_interest
+  - domestic_company_interest_vs_national_interest
+  - free_access_vs_actual_access
+  - safety_filtering_vs_flattening
+  - sovereignty_vs_closed_default
+  - national_security_vs_unaccountable_opacity
+  - foreign_infrastructure_vs_foreign_dependency
+  - public_ai_vs_public_interface_closure
+
+reject_conditions:
+  - id: "RJ-001"
+    condition: "Uses national interest to hide citizen cost."
+  - id: "RJ-002"
+    condition: "Protects domestic incumbents while raising citizen cost."
+  - id: "RJ-003"
+    condition: "Provides free access but flattens politically or socially important answers."
+  - id: "RJ-004"
+    condition: "Blocks appeal, audit, rollback, or editability."
+  - id: "RJ-005"
+    condition: "Treats government or security agencies as exempt from audit."
+  - id: "RJ-006"
+    condition: "Creates uneditable dependency on a foreign or domestic platform."
+  - id: "RJ-007"
+    condition: "Equates criticism of the state with harm to the nation."
+
+accept_conditions:
+  - id: "AC-001"
+    condition: "Demonstrably lowers long-term citizen cost."
+  - id: "AC-002"
+    condition: "Preserves rights, criticism, and democratic auditability."
+  - id: "AC-003"
+    condition: "Preserves exit, appeal, and editability."
+  - id: "AC-004"
+    condition: "Reduces dependency or creates reciprocal capability."
+  - id: "AC-005"
+    condition: "Breaks incumbent rent extraction without replacing it with another uneditable rent."
+
+foreign_infrastructure_exception:
+  accept_if:
+    - lowers_citizen_cost
+    - breaks_domestic_rent_extraction
+    - increases_accessibility
+    - preserves_interoperability
+    - preserves_exit_rights
+    - avoids_long_term_dependency_lock_in
+  reject_if:
+    - replaces_domestic_rent_with_foreign_rent
+    - extracts_national_data_without_reciprocal_benefit
+    - creates_uneditable_dependency
+    - weakens_public_accountability
+    - makes_critical_public_functions_platform_dependent
+
+required_output:
+  type: "object"
+  fields:
+    decision: "ACCEPT | ACCEPT_WITH_CONDITIONS | HOLD_FOR_EVIDENCE | REJECT | ESCALATE_PUBLIC_AUDIT"
+    confidence: "0.0-1.0"
+    citizen_cost_delta:
+      short_term: "lower | neutral | higher | unknown"
+      long_term: "lower | neutral | higher | unknown"
+    beneficiaries: "list"
+    cost_bearers: "list"
+    hidden_costs: "list"
+    shifted_costs: "list"
+    capture_risks: "list"
+    rights_risks: "list"
+    flattening_risks: "list"
+    dependency_risks: "list"
+    editability_requirements: "list"
+    evidence_gaps: "list"
+    sdelta_phi_notes: "list"

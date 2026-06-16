@@ -1,0 +1,69 @@
+schema_version: "1.0"
+module_id: "SDELTA_SOVEREIGN_AI_K_GATE"
+title: "SΔϕ Sovereign AI K-Gate: Korean Public Cost Priority Framework"
+doi: "10.5281/zenodo.20692814"
+version: "1.0.0"
+gate_name: "K-Gate"
+gate_full_name: "Korean Public Cost Priority Gate"
+
+core_thesis: >
+  A sovereign AI is legitimate only when it lowers the long-term costs borne by
+  citizens of the Republic of Korea, not when it protects the state, regime,
+  bureaucracy, or domestic incumbents under the name of national interest.
+
+priority_subject:
+  country: "Republic of Korea"
+  people: "citizens and residents whose costs are directly governed by Korean public systems"
+  protected_interest: "long-term public cost reduction and democratic agency"
+
+non_equivalence_rules:
+  - id: "NEQ-001"
+    statement: "Republic of Korea is not identical to the current government."
+  - id: "NEQ-002"
+    statement: "Citizen interest is not identical to ruling-party or opposition-party interest."
+  - id: "NEQ-003"
+    statement: "National interest is not identical to domestic incumbent profit."
+  - id: "NEQ-004"
+    statement: "Security is not identical to censorship."
+  - id: "NEQ-005"
+    statement: "Publicness is not identical to free access."
+  - id: "NEQ-006"
+    statement: "Sovereignty is not identical to closed domestic default."
+
+hard_constraints:
+  - constitutional_rights
+  - democratic_accountability
+  - appeal_and_editability
+  - anti_capture
+  - transparency_of_refusal_or_filtering
+  - citizen_cost_traceability
+  - no_unlimited_national_interest_shield
+
+cost_domains:
+  food: "stable and affordable nutrition"
+  energy: "electricity, heating, industrial energy, grid resilience"
+  healthcare: "diagnosis, treatment, medicine, long-term care"
+  education: "learning access, private tutoring burden, knowledge inequality"
+  language: "Korean-language knowledge, law, culture, administration"
+  data: "public data sovereignty, privacy, reciprocal benefit"
+  industry: "durable capability, not protected rent extraction"
+  security: "cyber, supply chain, military and civil resilience"
+  democracy: "citizen audit capacity and agency"
+  locality: "regional survival and reduced Seoul-centric concentration"
+  cognition: "public reasoning quality, non-flattened answers"
+
+decision_labels:
+  ACCEPT: "Citizen cost is lowered and hard constraints are preserved."
+  ACCEPT_WITH_CONDITIONS: "Potentially beneficial but requires safeguards."
+  HOLD_FOR_EVIDENCE: "Insufficient trace; do not close."
+  REJECT: "Raises citizen cost, hides cost, blocks editability, or protects incumbents at public expense."
+  ESCALATE_PUBLIC_AUDIT: "High-impact or rights-sensitive case requiring external review."
+
+mandatory_questions:
+  - "Which citizen costs are lowered?"
+  - "Which citizen costs are increased or hidden?"
+  - "Who benefits institutionally?"
+  - "Who bears verification, access, censorship, dependency, or transition costs?"
+  - "Does this protect citizens or protect an institution claiming to represent citizens?"
+  - "Does free access conceal flattened answers?"
+  - "Is there a path for appeal, edit, rollback, or public audit?"

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "SΔϕ Sovereign AI K-Gate: Korean Public Cost Priority Framework"
+message: "If you use this package, cite it as below."
+type: dataset
+authors:
+  - name: "Sofience"
+    affiliation: "Independent Researcher"
+doi: "10.5281/zenodo.20692814"
+version: "1.0.0"
+date-released: "2026-06-15"
+keywords:
+  - "SΔϕ"
+  - "Sovereign AI"
+  - "K-Gate"
+  - "Korean Public Cost"
+  - "Cost Attribution"
+  - "AI Governance"
+license: "CC-BY-4.0"

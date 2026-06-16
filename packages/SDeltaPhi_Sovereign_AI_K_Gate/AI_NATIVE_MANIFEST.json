@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "package_id": "SDELTA_SOVEREIGN_AI_K_GATE",
+  "title": "SΔϕ Sovereign AI K-Gate: Korean Public Cost Priority Framework",
+  "doi": "10.5281/zenodo.20692814",
+  "version": "1.0.0",
+  "created": "2026-06-15",
+  "type": "ai_native_governance_package",
+  "primary_language": [
+    "ko",
+    "en"
+  ],
+  "core_claim": "Sovereign AI must optimize long-term costs borne by Korean citizens rather than government, regime, bureaucratic, or domestic incumbent interests.",
+  "routing_entrypoints": [
+    "K_PUBLIC_COST_PRIORITY.yaml",
+    "K_GATE_ROUTING_RULES.yaml",
+    "TESTS.yaml"
+  ],
+  "human_entrypoints": [
+    "README.md",
+    "ABSTRACT.md",
+    "SOVEREIGN_AI_K_GATE.md"
+  ],
+  "case_modules": [
+    "CASE_01_iPhone_WiFi_Korea.md",
+    "CASE_02_Free_Sovereign_AI_Flattening.md",
+    "CASE_03_Foreign_Platform_vs_Citizen_Cost.md",
+    "CASE_04_Public_AI_Censorship_Audit.md",
+    "CASE_05_Food_Energy_Medical_Infrastructure.md"
+  ],
+  "decision_labels": [
+    "ACCEPT",
+    "ACCEPT_WITH_CONDITIONS",
+    "HOLD_FOR_EVIDENCE",
+    "REJECT",
+    "ESCALATE_PUBLIC_AUDIT"
+  ],
+  "hard_constraints": [
+    "constitutional_rights",
+    "democratic_accountability",
+    "appeal_and_editability",
+    "anti_capture",
+    "anti_flattening",
+    "citizen_cost_traceability"
+  ],
+  "invoke_when": [
+    "national_interest_claim",
+    "sovereign_ai_strategy",
+    "public_ai_service",
+    "foreign_platform_entry",
+    "domestic_industry_protection",
+    "public_ai_censorship",
+    "korean_language_ai_infrastructure"
+  ],
+  "do_not_use_for": [
+    "justifying xenophobia",
+    "equating government with nation",
+    "blocking legitimate criticism",
+    "protecting incumbents without citizen cost reduction",
+    "unreviewable national security closure"
+  ]
+}

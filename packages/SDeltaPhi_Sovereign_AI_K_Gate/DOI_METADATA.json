@@ -1,0 +1,32 @@
+{
+  "title": "SΔϕ Sovereign AI K-Gate: Korean Public Cost Priority Framework",
+  "subtitle": "A Cost-Attribution Framework for Designing Sovereign AI in the Interest of the Republic of Korea and Its Citizens",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "This package defines an SΔϕ-based exception gate for sovereign AI design. It prioritizes the long-term costs borne by citizens of the Republic of Korea while explicitly separating citizen interest from government, regime, bureaucratic, and domestic incumbent interests. The framework includes a Korean Public Cost Priority Gate, anti-capture rules, public AI flattening audits, foreign infrastructure exception criteria, and AI-readable routing rules.",
+  "creators": [
+    {
+      "name": "Sofience",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "SΔϕ",
+    "Sovereign AI",
+    "K-Gate",
+    "Korean Public Cost",
+    "Cost Attribution",
+    "AI Governance",
+    "Public AI",
+    "Digital Sovereignty",
+    "Default Closure",
+    "Editability",
+    "National Interest",
+    "Citizen Cost"
+  ],
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.20692814",
+  "notes": "AI-READABLE / AI-NATIVE package. Korean public cost priority framework."
+}
