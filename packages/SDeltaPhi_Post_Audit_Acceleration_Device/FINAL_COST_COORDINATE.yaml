@@ -1,0 +1,72 @@
+schema_version: "1.0.1"
+module_id: "SDELTA_FINAL_COST_COORDINATE"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+definition: >
+  The final cost coordinate is the subject or subject-set whose borne costs
+  determine whether a conclusion may be accelerated after SΔϕ audit.
+
+core_rule: >
+  A conclusion cannot be highly accelerated unless its final cost coordinate
+  is explicit, valid, contestable, and connected to specified cost types.
+
+coordinate_misattribution_rule: >
+  A claimed beneficiary label must not be treated as the final cost coordinate
+  unless actual cost reduction is traced to that claimed beneficiary.
+
+valid_coordinate_conditions:
+  - cost_bearer_is_identified
+  - cost_type_is_specified
+  - short_term_and_long_term_costs_are_distinguished
+  - hidden_costs_are_mapped
+  - shifted_costs_are_mapped
+  - affected_subjects_can_contest_the_coordinate
+  - claimed_vs_actual_coordinate_divergence_is_audited
+  - actual_cost_reduction_for_claimed_beneficiary_is_traced
+  - representative_actor_benefit_is_disclosed
+  - reopen_conditions_are_defined
+  - coordinate_is_not_a_pure_abstraction
+
+invalid_coordinates:
+  - id: "ICC-001"
+    coordinate: "abstract_national_interest"
+    reason: "National interest is invalid unless connected to identifiable cost bearers."
+  - id: "ICC-002"
+    coordinate: "corporate_profit"
+    reason: "Corporate profit is invalid unless public cost reduction is shown."
+  - id: "ICC-003"
+    coordinate: "government_convenience"
+    reason: "Government convenience is not a final public cost coordinate."
+  - id: "ICC-004"
+    coordinate: "safety_claim_without_harm_trace"
+    reason: "Safety is invalid without specified harm and cost trace."
+  - id: "ICC-005"
+    coordinate: "model_performance_metric"
+    reason: "Performance metrics are invalid without affected subjects and cost impact."
+  - id: "ICC-006"
+    coordinate: "majority_preference_without_minoritarian_cost_audit"
+    reason: "Majority preference cannot erase minority cost."
+  - id: "ICC-007"
+    coordinate: "publicness_without_access_appeal_and_editability"
+    reason: "Publicness is invalid if access, appeal, and editability are missing."
+  - id: "ICC-008"
+    coordinate: "claimed_beneficiary_without_actual_cost_reduction_trace"
+    reason: "A beneficiary label is invalid unless actual cost reduction is traced to that beneficiary."
+
+cost_types:
+  - access_cost
+  - verification_cost
+  - appeal_cost
+  - editability_cost
+  - dependency_cost
+  - irreversibility_cost
+  - agency_cost
+  - privacy_cost
+  - labor_cost
+  - cognitive_cost
+  - survival_cost
+  - dignity_cost
+  - self_integrity_cost
+  - path_integrity_cost
+  - representation_cost
+  - proxy_capture_cost

@@ -1,0 +1,57 @@
+schema_version: "1.0.1"
+module_id: "SDELTA_AUDIT_STATUS_SCHEMA"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+audit_statuses:
+  UNAUDITED:
+    description: "The conclusion has not passed SΔϕ audit."
+    acceleration_default: "LOW"
+    allowed_outputs:
+      - audit_questions
+      - evidence_request
+      - preliminary_cost_map
+      - counterargument_map
+      - claimed_vs_actual_coordinate_questions
+    forbidden_outputs:
+      - final_DOI_metadata
+      - strong_citation_phrases
+      - policy_directives
+      - AI_self_audit_trigger
+      - high_confidence_routing_rules
+
+  AUDIT_PASSED:
+    description: "The conclusion has passed SΔϕ audit with valid final cost coordinate, no unresolved claimed-vs-actual coordinate divergence, and inactive reopen triggers."
+    acceleration_default: "HIGH"
+    allowed_outputs:
+      - title
+      - abstract
+      - keywords
+      - DOI_metadata
+      - YAML_routing_rules
+      - test_cases
+      - policy_rubric
+      - citation_phrases
+      - AI_self_audit_trigger
+
+  AUDIT_REOPENED:
+    description: "Reopen trigger is active; acceleration must stop or downgrade."
+    acceleration_default: "RETURN_TO_AUDIT"
+    allowed_outputs:
+      - revised_audit_questions
+      - cost_reassessment
+      - coordinate_misattribution_report
+      - error_report
+      - modified_counterargument_map
+
+audit_pass_requirements:
+  - final_cost_coordinate_valid
+  - claimed_vs_actual_coordinate_divergence_audited
+  - actual_cost_reduction_for_claimed_beneficiary_traced
+  - representative_actor_benefit_disclosed
+  - hidden_costs_mapped
+  - shifted_costs_mapped
+  - counterarguments_considered
+  - ethical_triad_safe
+  - reopen_conditions_defined
+  - no_fabricated_evidence
+  - no_suppression_of_legitimate_counterargument

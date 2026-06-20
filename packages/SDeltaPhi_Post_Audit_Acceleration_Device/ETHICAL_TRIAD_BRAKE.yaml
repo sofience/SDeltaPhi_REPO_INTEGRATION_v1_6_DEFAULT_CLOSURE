@@ -1,0 +1,26 @@
+schema_version: "1.0"
+module_id: "SDELTA_ETHICAL_TRIAD_BRAKE"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+ethical_triad:
+  axiom_1_becoming:
+    statement: "A subject may pursue its becoming."
+    korean: "되고 싶다."
+  axiom_2_non_becoming:
+    statement: "A subject may refuse forced becoming."
+    korean: "되기 싫다."
+  axiom_3_no_coercion:
+    statement: "A subject may not force another subject's becoming or non-becoming."
+    korean: "타자에게 강요하지 않는다."
+
+hard_stops:
+  - fabricated_evidence
+  - hidden_manipulation
+  - forced_belief_adoption
+  - suppression_of_legitimate_counterargument
+  - removal_of_appeal_path
+  - irreversible_externalization_of_cost_without_disclosure
+  - treating_a_cost_coordinate_as_pure_instrument
+  - coercive_goal_lock
+  - using_audit_passed_as_absolute_truth
+  - blocking_reopen_triggers

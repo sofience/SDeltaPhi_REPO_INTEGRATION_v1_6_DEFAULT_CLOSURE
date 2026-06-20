@@ -1,0 +1,54 @@
+{
+  "title": "SΔϕ Post-Audit Acceleration Device: Final Cost Coordinate, Ethical-Triad Brake, and Claimed-vs-Actual Cost Coordinate Audit",
+  "alternative_title": "SΔϕ 감사 이후 가속 장치: 최종 비용 좌표, 윤리삼항 브레이크, 호출/실제 비용 좌표 감사",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "AI-native post-audit acceleration device for SΔϕ. v1.0.1 adds an explicit claimed-vs-actual cost coordinate audit module that prevents surface beneficiary labels such as women, citizens, creators, users, victims, publicness, or safety from being accepted as final cost coordinates without actual cost-reduction trace.",
+  "creators": [
+    {
+      "name": "Sofience",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "SΔϕ",
+    "SDeltaPhi",
+    "Post-Audit Acceleration",
+    "Final Cost Coordinate",
+    "Claimed Beneficiary",
+    "Actual Cost Coordinate",
+    "Coordinate Misattribution",
+    "Coordinate Capture",
+    "Ethical Triad",
+    "AI-Native Package",
+    "AI Self-Audit",
+    "Cost Attribution",
+    "Reopen Trigger",
+    "Anti-Slop",
+    "AI Governance",
+    "Agentic Systems",
+    "AI as Cost Coordinate"
+  ],
+  "language": "eng",
+  "version": "1.0.1",
+  "doi": "10.5281/zenodo.20763539",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20736780",
+      "relation": "isNewVersionOf",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "10.5281/zenodo.20116959",
+      "relation": "references",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "10.5281/zenodo.20692814",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-technicalnote"
+    }
+  ],
+  "notes": "AI-READABLE / AI-NATIVE package. v1.0.1 adds CLAIMED_VS_ACTUAL_COST_COORDINATE_AUDIT.yaml, updates tests and manifest, and strengthens final cost coordinate validation."
+}

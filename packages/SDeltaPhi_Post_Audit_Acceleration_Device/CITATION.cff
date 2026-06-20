@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "SΔϕ Post-Audit Acceleration Device: Final Cost Coordinate, Ethical-Triad Brake, and Claimed-vs-Actual Cost Coordinate Audit"
+message: "If you use this package, cite it as below."
+type: dataset
+authors:
+  - name: "Sofience"
+    affiliation: "Independent Researcher"
+doi: "10.5281/zenodo.20763539"
+version: "1.0.1"
+date-released: "2026-06-18"
+keywords:
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "Post-Audit Acceleration"
+  - "Final Cost Coordinate"
+  - "Claimed Beneficiary"
+  - "Actual Cost Coordinate"
+  - "Coordinate Misattribution"
+  - "Coordinate Capture"
+  - "Ethical Triad"
+license: "CC-BY-4.0"

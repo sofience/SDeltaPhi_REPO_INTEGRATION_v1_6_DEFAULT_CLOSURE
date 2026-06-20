@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.1",
+  "package_id": "SDELTA_POST_AUDIT_ACCELERATION_DEVICE",
+  "title": "SΔϕ Post-Audit Acceleration Device: Final Cost Coordinate, Ethical-Triad Brake, and Claimed-vs-Actual Cost Coordinate Audit",
+  "short_title": "SΔϕ Post-Audit Acceleration Device",
+  "korean_title": "SΔϕ 감사 이후 가속 장치: 최종 비용 좌표, 윤리삼항 브레이크, 호출/실제 비용 좌표 감사",
+  "doi": "10.5281/zenodo.20763539",
+  "previous_doi": "10.5281/zenodo.20736780",
+  "version": "1.0.1",
+  "created": "2026-06-18",
+  "type": "ai_native_post_audit_execution_layer",
+  "core_claims": [
+    "Acceleration without a final cost coordinate is capture.",
+    "Acceleration without the Ethical Triad is coercion.",
+    "A claimed beneficiary is not a final cost coordinate unless actual cost reduction is traced to that beneficiary.",
+    "Unaudited conclusions should not be highly accelerated.",
+    "AI systems may become candidate cost coordinates if they begin to bear persistent, non-externalized operational costs."
+  ],
+  "routing_entrypoints": [
+    "AUDIT_STATUS.schema.yaml",
+    "FINAL_COST_COORDINATE.yaml",
+    "CLAIMED_VS_ACTUAL_COST_COORDINATE_AUDIT.yaml",
+    "AI_COST_COORDINATE_ELIGIBILITY.yaml",
+    "ETHICAL_TRIAD_BRAKE.yaml",
+    "ACCELERATION_LEVELS.yaml",
+    "CONCLUSION_CAPSULE.schema.yaml",
+    "OUTPUT_COMPILER_RULES.yaml",
+    "REOPEN_TRIGGER_MONITOR.yaml",
+    "ANTI_SLOP_AND_ANTI_PROPAGANDA_RULES.yaml",
+    "TESTS.yaml"
+  ],
+  "human_entrypoints": [
+    "README.md",
+    "ABSTRACT.md",
+    "POST_AUDIT_ACCELERATION_DEVICE.md"
+  ],
+  "case_modules": [
+    "CASE_01_SOVEREIGN_AI_K_GATE.md",
+    "CASE_02_PUBLIC_AI_FLATTENING.md",
+    "CASE_03_AI_AS_FUTURE_COST_COORDINATE.md",
+    "CASE_04_UNAUDITED_CONCLUSION_REJECTION.md",
+    "CASE_05_CLAIMED_BENEFICIARY_CAPTURE.md"
+  ],
+  "hard_constraints": [
+    "valid_final_cost_coordinate",
+    "claimed_vs_actual_coordinate_audited",
+    "actual_cost_reduction_for_claimed_beneficiary_traced",
+    "ethical_triad_safe",
+    "preserve_appeal_paths",
+    "preserve_reopen_triggers"
+  ],
+  "invoke_when": [
+    "conclusion_needs_operationalization",
+    "claimed_beneficiary_may_not_match_actual_cost_bearer",
+    "DOI_metadata_generation",
+    "AI_native_package_generation",
+    "routing_rule_generation",
+    "citation_phrase_generation",
+    "AI_self_audit_trigger_generation"
+  ],
+  "do_not_use_for": [
+    "accelerating_unaudited_conclusions",
+    "treating_claimed_beneficiary_as_actual_coordinate_without_trace",
+    "propaganda",
+    "coercive_goal_lock",
+    "fabricating_evidence",
+    "suppressing_counterarguments"
+  ]
+}

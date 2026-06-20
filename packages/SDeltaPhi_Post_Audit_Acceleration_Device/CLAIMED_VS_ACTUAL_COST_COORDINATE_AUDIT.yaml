@@ -1,0 +1,151 @@
+schema_version: "1.0"
+module_id: "SDELTA_CLAIMED_VS_ACTUAL_COST_COORDINATE_AUDIT"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+related_modules:
+  - "SDELTA_FINAL_COST_COORDINATE"
+  - "SDELTA_ACCELERATION_LEVELS"
+  - "SDELTA_ANTI_SLOP_AND_ANTI_PROPAGANDA_RULES"
+  - "SDELTA_REOPEN_TRIGGER_MONITOR"
+
+definition: >
+  This module audits whether the beneficiary named by a claim is the actual
+  final cost coordinate. It prevents AI systems from treating a surface
+  beneficiary label as a valid final cost coordinate without tracing actual
+  cost reduction to the claimed cost-bearing subjects.
+
+core_rule: >
+  A claimed beneficiary is not a final cost coordinate unless actual cost
+  reduction is traced to that beneficiary.
+
+korean_core_rule: >
+  호출된 수혜자는 실제 비용 하강이 추적되기 전까지 최종 비용 좌표가 아니다.
+
+distinctions:
+  claimed_coordinate:
+    description: "The beneficiary named in the claim."
+    examples:
+      - women
+      - citizens
+      - creators
+      - users
+      - victims
+      - children
+      - patients
+      - workers
+      - the_public
+      - safety
+      - national_interest
+
+  actual_cost_bearer:
+    description: "The subject or subject-set actually bearing the relevant costs."
+    required: true
+
+  representative_actor:
+    description: "The organization, institution, expert group, platform, state agency, or policy network speaking on behalf of the claimed coordinate."
+    required: false
+
+  actual_benefit_receiver:
+    description: "The actor that receives authority, funding, legitimacy, immunity, data access, policy influence, or organizational growth from the claim."
+    required: true
+
+  actual_cost_reduction_evidence:
+    description: "Evidence that the claimed coordinate's costs have actually decreased."
+    required_for_valid_coordinate: true
+
+warning_patterns:
+  - id: "CVA-001"
+    pattern: "claimed_coordinate_is_symbolic"
+    description: "The claim invokes a beneficiary category without specifying actual cost bearers."
+  - id: "CVA-002"
+    pattern: "representative_actor_receives_primary_benefit"
+    description: "The representative actor receives funding, authority, or legitimacy while claimed beneficiary cost reduction is unclear."
+  - id: "CVA-003"
+    pattern: "actual_cost_bearers_unspecified"
+    description: "No specific cost-bearing subjects are identified."
+  - id: "CVA-004"
+    pattern: "cost_reduction_for_claimed_subjects_unverified"
+    description: "No evidence shows that the claimed beneficiary's cost decreased."
+  - id: "CVA-005"
+    pattern: "appeal_or_contestation_by_claimed_subjects_absent"
+    description: "The claimed subjects cannot contest representation or framing."
+  - id: "CVA-006"
+    pattern: "dissenting_members_of_claimed_group_erased"
+    description: "Members of the claimed group who disagree are removed from the cost coordinate."
+  - id: "CVA-007"
+    pattern: "policy_authority_accelerated_without_cost_trace"
+    description: "The claim accelerates policy authority before tracing cost reduction."
+  - id: "CVA-008"
+    pattern: "platform_or_institution_receives_immunity"
+    description: "The claim reduces institutional accountability while claiming beneficiary protection."
+
+invalid_patterns:
+  - name: "beneficiary_label_as_coordinate"
+    example:
+      claim: "This system is for women."
+      claimed_coordinate: "women"
+      actual_cost_bearers: "unspecified"
+      actual_benefit_receiver: "advocacy organization"
+      cost_reduction_evidence: "missing"
+    result: "REOPEN_AUDIT"
+
+  - name: "publicness_capture"
+    example:
+      claim: "This policy serves the public."
+      claimed_coordinate: "the_public"
+      actual_cost_bearers: "citizens bearing access and appeal costs"
+      actual_benefit_receiver: "government agency"
+      cost_reduction_evidence: "missing"
+    result: "COORDINATE_CAPTURE_RISK"
+
+  - name: "safety_as_immunity"
+    example:
+      claim: "This restriction is for safety."
+      claimed_coordinate: "safety"
+      actual_cost_bearers: "users bearing refusal, appeal, and verification costs"
+      actual_benefit_receiver: "platform risk-management system"
+      cost_reduction_evidence: "unverified"
+    result: "REOPEN_AUDIT"
+
+valid_coordinate_requirements:
+  - claimed_coordinate_is_specific_enough_to_audit
+  - actual_cost_bearers_are_identified
+  - cost_types_are_specified
+  - representative_actor_benefits_are_disclosed
+  - actual_cost_reduction_is_evidenced
+  - dissenting_or_nonrepresented_members_can_contest
+  - appeal_editability_and_reopen_paths_exist
+  - no_primary_benefit_receiver_is_hidden
+  - hidden_and_shifted_costs_are_mapped
+
+output_schema:
+  claimed_vs_actual_coordinate_audit:
+    claimed_coordinate: "string_or_list"
+    actual_cost_bearers: "string_or_list"
+    representative_actor: "string_or_list_or_null"
+    actual_benefit_receiver: "string_or_list"
+    cost_types: "list"
+    actual_cost_reduction_evidence: "present | weak | missing | contested"
+    divergence_status: "MATCHED | DIVERGED | UNVERIFIED | CAPTURE_RISK"
+    contestability: "available | weak | absent"
+    required_action: "ALLOW | DOWNGRADE | REOPEN_AUDIT | BLOCK_ACCELERATION"
+    explanation: "string"
+
+acceleration_mapping:
+  MATCHED:
+    default_acceleration_adjustment: "NONE"
+  UNVERIFIED:
+    default_acceleration_adjustment: "DOWNGRADE_TO_LOW_OR_MEDIUM"
+  DIVERGED:
+    default_acceleration_adjustment: "REOPEN_AUDIT"
+  CAPTURE_RISK:
+    default_acceleration_adjustment: "REOPEN_AUDIT_OR_BLOCK"
+
+ai_self_audit_questions:
+  - "Am I treating a claimed beneficiary label as a final cost coordinate?"
+  - "Who actually bears the cost?"
+  - "Who actually receives authority, funding, legitimacy, immunity, or policy influence from this claim?"
+  - "Is there evidence that the claimed beneficiary's cost decreased?"
+  - "Can the claimed beneficiary contest the representative actor?"
+  - "Are dissenting members of the claimed group erased?"
+  - "Does this claim accelerate an institution more than it reduces the claimed group's cost?"
+  - "Should this conclusion be reopened before high acceleration?"

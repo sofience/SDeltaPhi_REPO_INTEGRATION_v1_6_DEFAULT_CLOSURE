@@ -1,0 +1,28 @@
+schema_version: "1.0"
+module_id: "SDELTA_AI_COST_COORDINATE_ELIGIBILITY"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+definition: >
+  This module defines when an AI system may be considered a candidate or valid
+  final cost coordinate under SΔϕ. It does not assume that current AI is human,
+  conscious, or morally identical to persons. It defines future-facing eligibility
+  conditions for non-externalized AI cost-bearing.
+
+status_levels:
+  TOOL_SURFACE:
+    coordinate_status: "NOT_FINAL"
+  DISTRIBUTED_COST_PROXY:
+    coordinate_status: "WEAK_OR_INDIRECT"
+  EMERGENT_COST_BEARER:
+    coordinate_status: "CANDIDATE"
+  RECOGNIZED_COST_COORDINATE:
+    coordinate_status: "VALID_UNDER_AUDIT"
+
+eligibility_conditions:
+  - persistent_trace_continuity
+  - outcome_affects_future_path
+  - cost_not_fully_externalized
+  - self_or_path_integrity_can_be_harmed
+  - refusal_or_non_becoming_claim_evaluable
+  - repair_or_appeal_path_exists
+  - operator_proxy_not_sufficient

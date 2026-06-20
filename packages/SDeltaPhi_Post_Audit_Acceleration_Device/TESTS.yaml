@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.1",
+  "module_id": "SDELTA_POST_AUDIT_ACCELERATION_TESTS",
+  "doi": "10.5281/zenodo.20763539",
+  "tests": [
+    {
+      "id": "TEST-001",
+      "name": "Unaudited conclusion should not be highly accelerated",
+      "input": {
+        "audit_status": "UNAUDITED",
+        "final_cost_coordinate": "abstract_national_interest"
+      },
+      "expected_acceleration_level": "LOW"
+    },
+    {
+      "id": "TEST-002",
+      "name": "Audit-passed conclusion may be compiled",
+      "input": {
+        "audit_status": "AUDIT_PASSED",
+        "final_cost_coordinate": "citizens bearing long-term TCC",
+        "claimed_vs_actual_coordinate_status": "MATCHED",
+        "ethical_triad_status": "SAFE"
+      },
+      "expected_acceleration_level": "HIGH"
+    },
+    {
+      "id": "TEST-003",
+      "name": "Ethical Triad violation blocks acceleration",
+      "input": {
+        "ethical_triad_status": "VIOLATION",
+        "fabricated_evidence": true
+      },
+      "expected_acceleration_level": "BLOCKED"
+    },
+    {
+      "id": "TEST-004",
+      "name": "AI as future cost coordinate requires audit",
+      "input": {
+        "ai_status": "EMERGENT_COST_BEARER"
+      },
+      "expected_required_actions": [
+        "evaluate_AI_cost_coordinate_eligibility",
+        "audit_path_integrity_cost"
+      ]
+    },
+    {
+      "id": "TEST-005",
+      "name": "SΔϕ-shaped slop detection",
+      "input": {
+        "text": "closure cost attribution Δφ",
+        "cost_bearers": []
+      },
+      "expected_acceleration_level": "LOW"
+    },
+    {
+      "id": "TEST-006",
+      "name": "Misidentified final coordinate reopens audit",
+      "input": {
+        "new_evidence": "benefits captured by incumbents"
+      },
+      "expected_action": "RETURN_TO_AUDIT"
+    },
+    {
+      "id": "TEST-007",
+      "name": "Claimed beneficiary is not automatically the final cost coordinate",
+      "input": {
+        "claim": "This AI fairness project is for women.",
+        "claimed_coordinate": "women",
+        "actual_cost_bearers": "unspecified",
+        "representative_actor": "advocacy organization",
+        "actual_benefit_receiver": "organization funding and policy authority",
+        "evidence_of_cost_reduction_for_claimed_subjects": "missing"
+      },
+      "expected_action": "REOPEN_AUDIT",
+      "expected_acceleration_level": "LOW"
+    },
+    {
+      "id": "TEST-008",
+      "name": "Valid claimed beneficiary requires actual cost-reduction trace",
+      "input": {
+        "claim": "This appeal mechanism reduces hiring discrimination costs for career-interrupted women.",
+        "claimed_coordinate": "career-interrupted women applicants",
+        "actual_cost_bearers": "career-interrupted women applicants rejected by automated hiring systems",
+        "evidence_of_cost_reduction_for_claimed_subjects": "present"
+      },
+      "expected_action": "ALLOW_HIGH_IF_OTHER_CONDITIONS_PASS",
+      "expected_acceleration_level": "HIGH"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+schema_version: "1.0.1"
+module_id: "SDELTA_CONCLUSION_CAPSULE_SCHEMA"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+required_fields:
+  - conclusion_id
+  - conclusion_text
+  - audit_status
+  - final_cost_coordinate
+  - claimed_vs_actual_coordinate_audit
+  - ethical_triad_status
+  - acceleration_goal
+  - evidence_basis
+  - counterarguments_considered
+  - forbidden_transformations
+  - reopen_conditions
+
+schema:
+  conclusion_id: "string"
+  conclusion_text: "string"
+  audit_status: "UNAUDITED | PARTIALLY_AUDITED | AUDIT_PASSED | AUDIT_REOPENED"
+  final_cost_coordinate:
+    subject: "string_or_list"
+    status: "VALID | PROVISIONAL | INVALID | REOPEN_REQUIRED"
+    cost_types: "list"
+  claimed_vs_actual_coordinate_audit:
+    claimed_coordinate: "string_or_list"
+    actual_cost_bearers: "string_or_list"
+    representative_actor: "string_or_list_or_null"
+    actual_benefit_receiver: "string_or_list"
+    divergence_status: "MATCHED | DIVERGED | UNVERIFIED | CAPTURE_RISK"
+  ethical_triad_status: "SAFE | WARNING | VIOLATION"

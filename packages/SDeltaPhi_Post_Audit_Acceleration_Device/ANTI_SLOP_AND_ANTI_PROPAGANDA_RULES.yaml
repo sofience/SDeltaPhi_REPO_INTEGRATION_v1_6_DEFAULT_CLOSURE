@@ -1,0 +1,32 @@
+schema_version: "1.0.1"
+module_id: "SDELTA_ANTI_SLOP_AND_ANTI_PROPAGANDA_RULES"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+SDeltaPhi_shaped_slop:
+  definition: >
+    Output that uses SΔϕ vocabulary without actually mapping cost bearers,
+    evidence, counterarguments, claimed-vs-actual coordinate divergence,
+    or reopen conditions.
+
+slop_indicators:
+  - repeated_terms_without_cost_map
+  - conclusion_without_final_cost_coordinate
+  - claimed_beneficiary_without_actual_cost_reduction_trace
+  - audit_language_without_audit_status
+  - citation_like_authority_without_trace
+  - all_issues_forced_into_SDeltaPhi_labels
+
+propaganda_indicators:
+  - persuasion_optimized_by_hiding_counterarguments
+  - audit_passed_used_as_absolute_truth
+  - appeal_paths_removed
+  - representative_actor_benefit_hidden_behind_claimed_beneficiary
+
+anti_slop_requirements:
+  - name_cost_bearers
+  - specify_cost_types
+  - identify_hidden_and_shifted_costs
+  - distinguish_claimed_coordinate_from_actual_cost_bearer
+  - preserve_counterarguments
+  - state_audit_status
+  - state_reopen_conditions

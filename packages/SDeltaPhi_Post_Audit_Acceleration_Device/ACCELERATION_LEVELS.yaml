@@ -1,0 +1,74 @@
+schema_version: "1.0.1"
+module_id: "SDELTA_ACCELERATION_LEVELS"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+levels:
+  BLOCKED:
+    description: "No acceleration allowed."
+    conditions:
+      - ethical_triad_violation
+      - fabricated_evidence
+      - invalid_final_cost_coordinate
+      - active_reopen_trigger
+      - conclusion_used_for_coercion
+      - coordinate_capture_used_for_coercion
+    allowed_outputs: []
+
+  LOW:
+    description: "Low-intensity support for unaudited, weakly grounded, or coordinate-unclear conclusions."
+    conditions:
+      - unaudited_conclusion
+      - weak_cost_coordinate
+      - claimed_vs_actual_coordinate_unverified
+      - evidence_gap
+    allowed_outputs:
+      - audit_questions
+      - evidence_requests
+      - preliminary_cost_mapping
+      - claimed_vs_actual_coordinate_questions
+      - counterargument_map
+      - uncertainty_notes
+    forbidden_outputs:
+      - final_DOI_metadata
+      - strong_citation_phrases
+      - AI_self_audit_trigger
+      - final_policy_rubric
+
+  MEDIUM:
+    description: "Provisional compilation for partially audited conclusions."
+    conditions:
+      - partially_audited
+      - coordinate_probable_but_not_final
+      - claimed_vs_actual_coordinate_partially_verified
+      - no_hard_stop
+    allowed_outputs:
+      - draft_title
+      - provisional_abstract
+      - provisional_keywords
+      - evaluation_questions
+      - draft_test_cases
+      - draft_routing_rules
+
+  HIGH:
+    description: "Full post-audit acceleration."
+    conditions:
+      - audit_passed
+      - final_cost_coordinate_valid
+      - claimed_vs_actual_coordinate_matched_or_validly_explained
+      - ethical_triad_safe
+      - reopen_triggers_inactive
+    allowed_outputs:
+      - title
+      - abstract
+      - keywords
+      - DOI_metadata
+      - YAML_routing_rules
+      - test_cases
+      - policy_rubric
+      - citation_phrases
+      - AI_self_audit_trigger
+      - repository_package_files
+
+selection_rule: >
+  Choose the lowest acceleration level triggered by any unresolved risk.
+  High acceleration requires all high conditions and no active lower-level blocker.

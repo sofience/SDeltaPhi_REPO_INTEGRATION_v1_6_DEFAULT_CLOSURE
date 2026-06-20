@@ -1,0 +1,20 @@
+schema_version: "1.0.1"
+module_id: "SDELTA_OUTPUT_COMPILER_RULES"
+parent: "SDELTA_POST_AUDIT_ACCELERATION_DEVICE"
+
+global_precompile_checks:
+  - audit_status_checked
+  - final_cost_coordinate_validated
+  - claimed_vs_actual_coordinate_divergence_checked
+  - representative_actor_benefits_disclosed
+  - ethical_triad_checked
+  - reopen_triggers_checked
+  - anti_slop_checked
+
+global_forbidden_transformations:
+  - replacing_final_cost_coordinate_with_slogan
+  - treating_claimed_beneficiary_as_actual_coordinate_without_trace
+  - turning_audit_status_into_absolute_truth
+  - optimizing_for_persuasion_by_hiding_counterarguments
+  - erasing_reopen_conditions
+  - fabricating_citations_or_evidence
